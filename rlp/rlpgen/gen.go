@@ -7,7 +7,7 @@ import (
 	"go/types"
 	"sort"
 
-	"github.com/dhanuxcoin/go-evm/rlp/internal/rlpstruct"
+	"/home/vandna/Desktop/go-evm/rlp/internal/rlpstruct"
 )
 
 // buildContext keeps the data needed for make*Op.

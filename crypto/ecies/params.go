@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/dhanuxcoin/go-evm/crypto"
+	ethcrypto "/home/vandna/Desktop/go-evm/crypto"
 )
 
 var (

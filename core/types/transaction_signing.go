@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/crypto"
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/crypto"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

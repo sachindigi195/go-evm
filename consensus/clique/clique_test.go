@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/core"
-	"github.com/dhanuxcoin/go-evm/core/rawdb"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/core/vm"
-	"github.com/dhanuxcoin/go-evm/crypto"
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/core"
+	"/home/vandna/Desktop/go-evm/core/rawdb"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/core/vm"
+	"/home/vandna/Desktop/go-evm/crypto"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 // This test case is a repro of an annoying bug that took us forever to catch.

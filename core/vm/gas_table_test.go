@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/common/hexutil"
-	"github.com/dhanuxcoin/go-evm/core/rawdb"
-	"github.com/dhanuxcoin/go-evm/core/state"
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common/hexutil"
+	"/home/vandna/Desktop/go-evm/core/rawdb"
+	"/home/vandna/Desktop/go-evm/core/state"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 func TestMemoryGasCost(t *testing.T) {

@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/core/rawdb"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/ethdb"
-	"github.com/dhanuxcoin/go-evm/event"
-	"github.com/dhanuxcoin/go-evm/log"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/core/rawdb"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/ethdb"
+	"/home/vandna/Desktop/go-evm/event"
+	"/home/vandna/Desktop/go-evm/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

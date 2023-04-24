@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/dhanuxcoin/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common"
 )
 
 //go:generate go run ../../rlp/rlpgen -type StateAccount -out gen_account_rlp.go

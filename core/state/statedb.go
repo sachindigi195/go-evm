@@ -26,17 +26,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/common/gopool"
-	"github.com/dhanuxcoin/go-evm/core/rawdb"
-	"github.com/dhanuxcoin/go-evm/core/state/snapshot"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/crypto"
-	"github.com/dhanuxcoin/go-evm/ethdb"
-	"github.com/dhanuxcoin/go-evm/log"
-	"github.com/dhanuxcoin/go-evm/metrics"
-	"github.com/dhanuxcoin/go-evm/rlp"
-	"github.com/dhanuxcoin/go-evm/trie"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common/gopool"
+	"/home/vandna/Desktop/go-evm/core/rawdb"
+	"/home/vandna/Desktop/go-evm/core/state/snapshot"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/crypto"
+	"/home/vandna/Desktop/go-evm/ethdb"
+	"/home/vandna/Desktop/go-evm/log"
+	"/home/vandna/Desktop/go-evm/metrics"
+	"/home/vandna/Desktop/go-evm/rlp"
+	"/home/vandna/Desktop/go-evm/trie"
 )
 
 const defaultNumOfSlots = 100
@@ -851,7 +851,7 @@ func (s *StateDB) copyInternal(doPrefetch bool) *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range s.journal.dirties {
-		// As documented [here](https://github.com/dhanuxcoin/go-evm/pull/16485#issuecomment-380438527),
+		// As documented [here](https:///home/vandna/Desktop/go-evm/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

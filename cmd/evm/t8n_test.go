@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/dhanuxcoin/go-evm/cmd/evm/internal/t8ntool"
-	"github.com/dhanuxcoin/go-evm/internal/cmdtest"
+	"/home/vandna/Desktop/go-evm/cmd/evm/internal/t8ntool"
+	"/home/vandna/Desktop/go-evm/internal/cmdtest"
 )
 
 func TestMain(m *testing.M) {

@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/common/math"
-	"github.com/dhanuxcoin/go-evm/consensus/ethash"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common/math"
+	"/home/vandna/Desktop/go-evm/consensus/ethash"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 //go:generate gencodec -type DifficultyTest -field-override difficultyTestMarshaling -out gen_difficultytest.go

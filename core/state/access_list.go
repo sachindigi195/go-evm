@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/dhanuxcoin/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common"
 )
 
 type accessList struct {

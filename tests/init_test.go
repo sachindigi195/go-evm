@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 var (

@@ -20,12 +20,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/core/rawdb"
-	"github.com/dhanuxcoin/go-evm/core/state"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/crypto"
-	"github.com/dhanuxcoin/go-evm/event"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/core/rawdb"
+	"/home/vandna/Desktop/go-evm/core/state"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/crypto"
+	"/home/vandna/Desktop/go-evm/event"
 )
 
 func pricedValuedTransaction(nonce uint64, value int64, gaslimit uint64, gasprice *big.Int, key *ecdsa.PrivateKey) *types.Transaction {

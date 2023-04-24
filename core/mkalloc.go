@@ -35,8 +35,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/dhanuxcoin/go-evm/core"
-	"github.com/dhanuxcoin/go-evm/rlp"
+	"/home/vandna/Desktop/go-evm/core"
+	"/home/vandna/Desktop/go-evm/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

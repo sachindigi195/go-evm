@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/dhanuxcoin/go-evm/tests/fuzzers/stacktrie"
+	"/home/vandna/Desktop/go-evm/tests/fuzzers/stacktrie"
 )
 
 func main() {

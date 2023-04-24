@@ -24,7 +24,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/dhanuxcoin/go-evm/log"
+	"/home/vandna/Desktop/go-evm/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

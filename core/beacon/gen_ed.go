@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common/hexutil"
 )
 
 var _ = (*executableDataMarshaling)(nil)

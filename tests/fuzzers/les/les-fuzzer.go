@@ -22,17 +22,17 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/consensus/ethash"
-	"github.com/dhanuxcoin/go-evm/core"
-	"github.com/dhanuxcoin/go-evm/core/rawdb"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/core/vm"
-	"github.com/dhanuxcoin/go-evm/crypto"
-	l "github.com/dhanuxcoin/go-evm/les"
-	"github.com/dhanuxcoin/go-evm/params"
-	"github.com/dhanuxcoin/go-evm/rlp"
-	"github.com/dhanuxcoin/go-evm/trie"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/consensus/ethash"
+	"/home/vandna/Desktop/go-evm/core"
+	"/home/vandna/Desktop/go-evm/core/rawdb"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/core/vm"
+	"/home/vandna/Desktop/go-evm/crypto"
+	l "/home/vandna/Desktop/go-evm/les"
+	"/home/vandna/Desktop/go-evm/params"
+	"/home/vandna/Desktop/go-evm/rlp"
+	"/home/vandna/Desktop/go-evm/trie"
 )
 
 var (

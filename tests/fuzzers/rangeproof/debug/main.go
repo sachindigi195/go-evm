@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/dhanuxcoin/go-evm/tests/fuzzers/rangeproof"
+	"/home/vandna/Desktop/go-evm/tests/fuzzers/rangeproof"
 )
 
 func main() {

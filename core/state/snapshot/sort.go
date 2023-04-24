@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/dhanuxcoin/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common"
 )
 
 // hashes is a helper to implement sort.Interface.

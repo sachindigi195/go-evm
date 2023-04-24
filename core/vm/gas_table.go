@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/common/math"
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common/math"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

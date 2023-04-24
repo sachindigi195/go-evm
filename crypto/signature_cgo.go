@@ -24,8 +24,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/dhanuxcoin/go-evm/common/math"
-	"github.com/dhanuxcoin/go-evm/crypto/secp256k1"
+	"/home/vandna/Desktop/go-evm/common/math"
+	"/home/vandna/Desktop/go-evm/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

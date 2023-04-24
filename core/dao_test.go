@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/consensus/ethash"
-	"github.com/dhanuxcoin/go-evm/core/rawdb"
-	"github.com/dhanuxcoin/go-evm/core/vm"
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/consensus/ethash"
+	"/home/vandna/Desktop/go-evm/core/rawdb"
+	"/home/vandna/Desktop/go-evm/core/vm"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

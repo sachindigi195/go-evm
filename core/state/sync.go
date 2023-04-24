@@ -19,11 +19,11 @@ package state
 import (
 	"bytes"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/ethdb"
-	"github.com/dhanuxcoin/go-evm/rlp"
-	"github.com/dhanuxcoin/go-evm/trie"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/ethdb"
+	"/home/vandna/Desktop/go-evm/rlp"
+	"/home/vandna/Desktop/go-evm/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

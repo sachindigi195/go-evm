@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common"
 )
 
 func TestPairingExpected(t *testing.T) {

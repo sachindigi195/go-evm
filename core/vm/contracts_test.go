@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dhanuxcoin/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

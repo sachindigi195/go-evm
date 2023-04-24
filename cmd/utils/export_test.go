@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dhanuxcoin/go-evm/core/rawdb"
-	"github.com/dhanuxcoin/go-evm/rlp"
+	"/home/vandna/Desktop/go-evm/core/rawdb"
+	"/home/vandna/Desktop/go-evm/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

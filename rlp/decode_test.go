@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/common/math"
+	"/home/vandna/Desktop/go-evm/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

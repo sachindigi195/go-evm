@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/core/state"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/params"
-	"github.com/dhanuxcoin/go-evm/rpc"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/core/state"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/params"
+	"/home/vandna/Desktop/go-evm/rpc"
 )
 
 var (

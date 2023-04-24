@@ -16,7 +16,7 @@
 
 package params
 
-import "github.com/dhanuxcoin/go-evm/common"
+import "/home/vandna/Desktop/go-evm/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.

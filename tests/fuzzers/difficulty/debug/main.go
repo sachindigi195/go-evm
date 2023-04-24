@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/dhanuxcoin/go-evm/tests/fuzzers/difficulty"
+	"/home/vandna/Desktop/go-evm/tests/fuzzers/difficulty"
 )
 
 func main() {

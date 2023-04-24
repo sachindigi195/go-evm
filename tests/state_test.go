@@ -27,11 +27,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/core"
-	"github.com/dhanuxcoin/go-evm/core/rawdb"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/core/vm"
-	"github.com/dhanuxcoin/go-evm/eth/tracers/logger"
+	"/home/vandna/Desktop/go-evm/core"
+	"/home/vandna/Desktop/go-evm/core/rawdb"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/core/vm"
+	"/home/vandna/Desktop/go-evm/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

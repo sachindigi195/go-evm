@@ -10,8 +10,8 @@ import (
 	"github.com/tendermint/tendermint/crypto/merkle"
 	cmn "github.com/tendermint/tendermint/libs/common"
 
-	"github.com/dhanuxcoin/go-evm/core/vm/lightclient"
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/core/vm/lightclient"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 const (

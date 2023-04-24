@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/dhanuxcoin/go-evm/core/vm/runtime"
+	"/home/vandna/Desktop/go-evm/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

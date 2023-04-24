@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/dhanuxcoin/go-evm/core/state"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/core/vm"
+	"/home/vandna/Desktop/go-evm/core/state"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

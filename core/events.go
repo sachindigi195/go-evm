@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

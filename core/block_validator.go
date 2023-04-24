@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/consensus"
-	"github.com/dhanuxcoin/go-evm/core/state"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/params"
-	"github.com/dhanuxcoin/go-evm/trie"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/consensus"
+	"/home/vandna/Desktop/go-evm/core/state"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/params"
+	"/home/vandna/Desktop/go-evm/trie"
 )
 
 const badBlockCacheExpire = 30 * time.Second

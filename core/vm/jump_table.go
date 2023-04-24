@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 type (

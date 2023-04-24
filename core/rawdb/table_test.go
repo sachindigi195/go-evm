@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/ethdb"
+	"/home/vandna/Desktop/go-evm/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

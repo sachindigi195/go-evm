@@ -26,29 +26,29 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/dhanuxcoin/go-evm/accounts"
-	"github.com/dhanuxcoin/go-evm/accounts/abi"
-	"github.com/dhanuxcoin/go-evm/accounts/keystore"
-	"github.com/dhanuxcoin/go-evm/accounts/scwallet"
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/common/gopool"
-	"github.com/dhanuxcoin/go-evm/common/hexutil"
-	"github.com/dhanuxcoin/go-evm/common/math"
-	"github.com/dhanuxcoin/go-evm/consensus"
-	"github.com/dhanuxcoin/go-evm/consensus/ethash"
-	"github.com/dhanuxcoin/go-evm/consensus/misc"
-	"github.com/dhanuxcoin/go-evm/core"
-	"github.com/dhanuxcoin/go-evm/core/rawdb"
-	"github.com/dhanuxcoin/go-evm/core/state"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/core/vm"
-	"github.com/dhanuxcoin/go-evm/crypto"
-	"github.com/dhanuxcoin/go-evm/eth/tracers/logger"
-	"github.com/dhanuxcoin/go-evm/log"
-	"github.com/dhanuxcoin/go-evm/p2p"
-	"github.com/dhanuxcoin/go-evm/params"
-	"github.com/dhanuxcoin/go-evm/rlp"
-	"github.com/dhanuxcoin/go-evm/rpc"
+	"/home/vandna/Desktop/go-evm/accounts"
+	"/home/vandna/Desktop/go-evm/accounts/abi"
+	"/home/vandna/Desktop/go-evm/accounts/keystore"
+	"/home/vandna/Desktop/go-evm/accounts/scwallet"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common/gopool"
+	"/home/vandna/Desktop/go-evm/common/hexutil"
+	"/home/vandna/Desktop/go-evm/common/math"
+	"/home/vandna/Desktop/go-evm/consensus"
+	"/home/vandna/Desktop/go-evm/consensus/ethash"
+	"/home/vandna/Desktop/go-evm/consensus/misc"
+	"/home/vandna/Desktop/go-evm/core"
+	"/home/vandna/Desktop/go-evm/core/rawdb"
+	"/home/vandna/Desktop/go-evm/core/state"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/core/vm"
+	"/home/vandna/Desktop/go-evm/crypto"
+	"/home/vandna/Desktop/go-evm/eth/tracers/logger"
+	"/home/vandna/Desktop/go-evm/log"
+	"/home/vandna/Desktop/go-evm/p2p"
+	"/home/vandna/Desktop/go-evm/params"
+	"/home/vandna/Desktop/go-evm/rlp"
+	"/home/vandna/Desktop/go-evm/rpc"
 	"github.com/tyler-smith/go-bip39"
 )
 
@@ -518,7 +518,7 @@ func (s *PrivateAccountAPI) SignTransaction(ctx context.Context, args Transactio
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/dhanuxcoin/go-evm/wiki/Management-APIs#personal_sign
+// https:///home/vandna/Desktop/go-evm/wiki/Management-APIs#personal_sign
 func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -546,7 +546,7 @@ func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr c
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https://github.com/dhanuxcoin/go-evm/wiki/Management-APIs#personal_ecRecover
+// https:///home/vandna/Desktop/go-evm/wiki/Management-APIs#personal_ecRecover
 func (s *PrivateAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)

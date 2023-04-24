@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 func TestTransaction(t *testing.T) {

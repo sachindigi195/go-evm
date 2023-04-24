@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/dhanuxcoin/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common"
 )
 
 func bigFromHex(hex string) *big.Int {

@@ -5,7 +5,7 @@
 
 package types
 
-import "github.com/dhanuxcoin/go-evm/rlp"
+import "/home/vandna/Desktop/go-evm/rlp"
 import "io"
 
 func (obj *StateAccount) EncodeRLP(_w io.Writer) error {

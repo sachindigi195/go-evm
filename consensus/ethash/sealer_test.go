@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/internal/testlog"
-	"github.com/dhanuxcoin/go-evm/log"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/internal/testlog"
+	"/home/vandna/Desktop/go-evm/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

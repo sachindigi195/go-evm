@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/core/state"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

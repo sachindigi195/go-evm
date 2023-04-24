@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/dhanuxcoin/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/core/types"
 )
 
 var (

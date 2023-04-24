@@ -19,7 +19,7 @@ package ethash
 import (
 	"math/big"
 
-	"github.com/dhanuxcoin/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/core/types"
 	"github.com/holiman/uint256"
 )
 

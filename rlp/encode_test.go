@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/common/math"
+	"/home/vandna/Desktop/go-evm/common/math"
 )
 
 type testEncoder struct {

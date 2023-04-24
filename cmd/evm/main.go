@@ -18,10 +18,10 @@
 package main
 
 import (
+	"/home/vandna/Desktop/go-evm/cmd/evm/internal/t8ntool"
+	"/home/vandna/Desktop/go-evm/cmd/utils"
+	"/home/vandna/Desktop/go-evm/internal/flags"
 	"fmt"
-	"github.com/dhanuxcoin/go-evm/cmd/evm/internal/t8ntool"
-	"github.com/dhanuxcoin/go-evm/cmd/utils"
-	"github.com/dhanuxcoin/go-evm/internal/flags"
 	"math/big"
 
 	"gopkg.in/urfave/cli.v1"

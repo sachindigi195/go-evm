@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dhanuxcoin/go-evm/accounts/keystore"
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/accounts/keystore"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/core/types"
 )
 
 // Tests that the account management snippets work correctly.

@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/dhanuxcoin/go-evm/consensus/ethash"
-	"github.com/dhanuxcoin/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/consensus/ethash"
+	"/home/vandna/Desktop/go-evm/core/types"
 )
 
 type fuzzer struct {

@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/dhanuxcoin/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

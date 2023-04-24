@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/dhanuxcoin/go-evm/console/prompt"
+	"/home/vandna/Desktop/go-evm/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

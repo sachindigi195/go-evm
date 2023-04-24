@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/dhanuxcoin/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common"
 )
 
 type AddrLocker struct {

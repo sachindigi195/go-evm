@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/dhanuxcoin/go-evm/accounts/abi"
+	"/home/vandna/Desktop/go-evm/accounts/abi"
 	fuzz "github.com/google/gofuzz"
 )
 

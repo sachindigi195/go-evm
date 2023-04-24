@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

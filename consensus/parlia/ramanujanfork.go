@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/dhanuxcoin/go-evm/consensus"
-	"github.com/dhanuxcoin/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/consensus"
+	"/home/vandna/Desktop/go-evm/core/types"
 )
 
 const (

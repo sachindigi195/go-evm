@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/dhanuxcoin/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

@@ -19,7 +19,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/dhanuxcoin/go-evm/eth/ethconfig"
+	"/home/vandna/Desktop/go-evm/eth/ethconfig"
 	"gopkg.in/urfave/cli.v1"
 )
 

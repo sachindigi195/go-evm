@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dhanuxcoin/go-evm/core/asm"
+	"/home/vandna/Desktop/go-evm/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

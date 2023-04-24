@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

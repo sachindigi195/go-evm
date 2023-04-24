@@ -21,13 +21,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	cmath "github.com/dhanuxcoin/go-evm/common/math"
-	"github.com/dhanuxcoin/go-evm/consensus"
-	"github.com/dhanuxcoin/go-evm/core/types"
-	"github.com/dhanuxcoin/go-evm/core/vm"
-	"github.com/dhanuxcoin/go-evm/crypto"
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/common"
+	cmath "/home/vandna/Desktop/go-evm/common/math"
+	"/home/vandna/Desktop/go-evm/consensus"
+	"/home/vandna/Desktop/go-evm/core/types"
+	"/home/vandna/Desktop/go-evm/core/vm"
+	"/home/vandna/Desktop/go-evm/crypto"
+	"/home/vandna/Desktop/go-evm/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/dhanuxcoin/go-evm/common"
-	"github.com/dhanuxcoin/go-evm/common/math"
-	"github.com/dhanuxcoin/go-evm/crypto"
-	"github.com/dhanuxcoin/go-evm/crypto/blake2b"
-	"github.com/dhanuxcoin/go-evm/crypto/bls12381"
-	"github.com/dhanuxcoin/go-evm/crypto/bn256"
-	"github.com/dhanuxcoin/go-evm/params"
+	"/home/vandna/Desktop/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common/math"
+	"/home/vandna/Desktop/go-evm/crypto"
+	"/home/vandna/Desktop/go-evm/crypto/blake2b"
+	"/home/vandna/Desktop/go-evm/crypto/bls12381"
+	"/home/vandna/Desktop/go-evm/crypto/bn256"
+	"/home/vandna/Desktop/go-evm/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

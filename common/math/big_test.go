@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/common"
+	"/home/vandna/Desktop/go-evm/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

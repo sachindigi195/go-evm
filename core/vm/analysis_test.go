@@ -20,7 +20,7 @@ import (
 	"math/bits"
 	"testing"
 
-	"github.com/dhanuxcoin/go-evm/crypto"
+	"/home/vandna/Desktop/go-evm/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {
