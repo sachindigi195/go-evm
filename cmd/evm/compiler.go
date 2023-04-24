@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"jumbochain/cmd/evm/internal/compiler"
+	"github.com/dhanuxcoin/go-evm/cmd/evm/internal/compiler"
 
 	"gopkg.in/urfave/cli.v1"
 )

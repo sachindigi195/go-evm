@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

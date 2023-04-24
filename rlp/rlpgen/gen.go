@@ -7,7 +7,7 @@ import (
 	"go/types"
 	"sort"
 
-	"jumbochain/rlp/internal/rlpstruct"
+	"github.com/dhanuxcoin/go-evm/rlp/internal/rlpstruct"
 )
 
 // buildContext keeps the data needed for make*Op.

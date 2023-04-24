@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"jumbochain/rlp/internal/rlpstruct"
+	"github.com/dhanuxcoin/go-evm/rlp/internal/rlpstruct"
 )
 
 var (

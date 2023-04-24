@@ -19,7 +19,7 @@ package utils
 import (
 	"fmt"
 
-	"jumbochain/eth/ethconfig"
+	"github.com/dhanuxcoin/go-evm/eth/ethconfig"
 	"gopkg.in/urfave/cli.v1"
 )
 

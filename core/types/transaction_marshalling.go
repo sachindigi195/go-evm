@@ -21,8 +21,8 @@ import (
 	"errors"
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
 )
 
 // txJSON is the JSON representation of transactions.

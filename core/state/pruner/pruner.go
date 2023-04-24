@@ -29,19 +29,19 @@ import (
 
 	"github.com/prometheus/tsdb/fileutil"
 
-	"jumbochain/common"
-	"jumbochain/consensus"
-	"jumbochain/core"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/state"
-	"jumbochain/core/state/snapshot"
-	"jumbochain/core/types"
-	"jumbochain/crypto"
-	"jumbochain/ethdb"
-	"jumbochain/log"
-	"jumbochain/node"
-	"jumbochain/rlp"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/core"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/state/snapshot"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/node"
+	"github.com/dhanuxcoin/go-evm/rlp"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 const (

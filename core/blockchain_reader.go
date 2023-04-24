@@ -19,15 +19,15 @@ package core
 import (
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/consensus"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/state"
-	"jumbochain/core/state/snapshot"
-	"jumbochain/core/types"
-	"jumbochain/event"
-	"jumbochain/params"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/state/snapshot"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/event"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // CurrentHeader retrieves the current head header of the canonical chain. The

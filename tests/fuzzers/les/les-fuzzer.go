@@ -22,17 +22,17 @@ import (
 	"io"
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/consensus/ethash"
-	"jumbochain/core"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/types"
-	"jumbochain/core/vm"
-	"jumbochain/crypto"
-	l "jumbochain/les"
-	"jumbochain/params"
-	"jumbochain/rlp"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus/ethash"
+	"github.com/dhanuxcoin/go-evm/core"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	l "github.com/dhanuxcoin/go-evm/les"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rlp"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 var (

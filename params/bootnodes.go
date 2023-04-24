@@ -16,7 +16,7 @@
 
 package params
 
-import "jumbochain/common"
+import "github.com/dhanuxcoin/go-evm/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.

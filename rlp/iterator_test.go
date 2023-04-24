@@ -19,7 +19,7 @@ package rlp
 import (
 	"testing"
 
-	"jumbochain/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
 )
 
 // TestIterator tests some basic things about the ListIterator. A more

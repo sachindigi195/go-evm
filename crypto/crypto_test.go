@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
 )
 
 var testAddrHex = "970e8128ab834e8eac17ab8e3812f010678cf791"

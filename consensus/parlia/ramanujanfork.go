@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"time"
 
-	"jumbochain/consensus"
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 const (

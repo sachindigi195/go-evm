@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/ethdb"
-	"jumbochain/params"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

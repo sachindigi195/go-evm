@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/rlp"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/rlp"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 // NodeIterator is an iterator to traverse the entire state trie post-order,

@@ -23,12 +23,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/common/math"
-	"jumbochain/core/types"
-	"jumbochain/log"
-	"jumbochain/rpc"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/rpc"
 )
 
 // TransactionArgs represents the arguments to construct a new transaction
@@ -45,7 +45,7 @@ type TransactionArgs struct {
 
 	// We accept "data" and "input" for backwards-compatibility reasons.
 	// "input" is the newer name and should be preferred by clients.
-	// Issue detail: https://jumbochain/issues/15628
+	// Issue detail: https://github.com/dhanuxcoin/go-evm/issues/15628
 	Data  *hexutil.Bytes `json:"data"`
 	Input *hexutil.Bytes `json:"input"`
 

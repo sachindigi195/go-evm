@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"jumbochain/common"
-	"jumbochain/metrics"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"jumbochain/accounts/abi"
+	"github.com/dhanuxcoin/go-evm/accounts/abi"
 	fuzz "github.com/google/gofuzz"
 )
 

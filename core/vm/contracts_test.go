@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

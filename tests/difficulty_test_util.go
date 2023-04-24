@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/common/math"
-	"jumbochain/consensus/ethash"
-	"jumbochain/core/types"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/consensus/ethash"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 //go:generate gencodec -type DifficultyTest -field-override difficultyTestMarshaling -out gen_difficultytest.go

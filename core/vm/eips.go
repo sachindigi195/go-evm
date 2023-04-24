@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/params"
 	"github.com/holiman/uint256"
 )
 

@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/consensus"
-	"jumbochain/core/state"
-	"jumbochain/core/types"
-	"jumbochain/params"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 const badBlockCacheExpire = 30 * time.Second

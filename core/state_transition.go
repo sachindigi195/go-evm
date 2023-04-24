@@ -21,13 +21,13 @@ import (
 	"math"
 	"math/big"
 
-	"jumbochain/common"
-	cmath "jumbochain/common/math"
-	"jumbochain/consensus"
-	"jumbochain/core/types"
-	"jumbochain/core/vm"
-	"jumbochain/crypto"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	cmath "github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

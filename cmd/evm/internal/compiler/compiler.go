@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"jumbochain/core/asm"
+	"github.com/dhanuxcoin/go-evm/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

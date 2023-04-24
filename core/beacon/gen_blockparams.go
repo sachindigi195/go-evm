@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
 )
 
 var _ = (*payloadAttributesMarshaling)(nil)

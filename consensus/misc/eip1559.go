@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/common/math"
-	"jumbochain/core/types"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // VerifyEip1559Header verifies some header attributes which were changed in EIP-1559,

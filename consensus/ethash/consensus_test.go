@@ -25,10 +25,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/common/math"
-	"jumbochain/core/types"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 type diffTest struct {

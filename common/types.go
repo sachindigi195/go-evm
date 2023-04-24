@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"jumbochain/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

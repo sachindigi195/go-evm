@@ -16,7 +16,7 @@
 
 package core
 
-import "jumbochain/common"
+import "github.com/dhanuxcoin/go-evm/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

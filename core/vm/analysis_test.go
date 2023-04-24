@@ -20,7 +20,7 @@ import (
 	"math/bits"
 	"testing"
 
-	"jumbochain/crypto"
+	"github.com/dhanuxcoin/go-evm/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

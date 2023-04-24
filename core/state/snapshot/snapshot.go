@@ -24,14 +24,14 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"jumbochain/common"
-	"jumbochain/core/rawdb"
-	"jumbochain/crypto"
-	"jumbochain/ethdb"
-	"jumbochain/log"
-	"jumbochain/metrics"
-	"jumbochain/rlp"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/metrics"
+	"github.com/dhanuxcoin/go-evm/rlp"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 var (

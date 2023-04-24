@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
 )
 
 func filledStateDB() *StateDB {

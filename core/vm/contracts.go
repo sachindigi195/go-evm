@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/common/math"
-	"jumbochain/crypto"
-	"jumbochain/crypto/blake2b"
-	"jumbochain/crypto/bls12381"
-	"jumbochain/crypto/bn256"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/crypto/blake2b"
+	"github.com/dhanuxcoin/go-evm/crypto/bls12381"
+	"github.com/dhanuxcoin/go-evm/crypto/bn256"
+	"github.com/dhanuxcoin/go-evm/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

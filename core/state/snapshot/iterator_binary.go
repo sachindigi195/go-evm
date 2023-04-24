@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/core"
-	"jumbochain/core/types"
-	"jumbochain/params"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/core"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

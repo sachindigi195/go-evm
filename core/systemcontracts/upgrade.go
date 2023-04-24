@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/core/state"
-	"jumbochain/log"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 type UpgradeConfig struct {

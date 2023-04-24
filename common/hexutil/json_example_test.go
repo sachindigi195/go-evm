@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"jumbochain/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
 )
 
 type MyType [5]byte

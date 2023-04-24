@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/common/math"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/state"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 var loopInterruptTests = []string{

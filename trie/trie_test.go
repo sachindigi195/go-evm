@@ -31,13 +31,13 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/crypto"
-	"jumbochain/ethdb"
-	"jumbochain/ethdb/leveldb"
-	"jumbochain/ethdb/memorydb"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/ethdb/leveldb"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

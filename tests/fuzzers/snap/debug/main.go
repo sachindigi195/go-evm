@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"jumbochain/tests/fuzzers/snap"
+	"github.com/dhanuxcoin/go-evm/tests/fuzzers/snap"
 )
 
 func main() {

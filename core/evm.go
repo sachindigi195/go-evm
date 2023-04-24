@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/consensus"
-	"jumbochain/core/types"
-	"jumbochain/core/vm"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

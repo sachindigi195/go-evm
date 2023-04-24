@@ -19,9 +19,9 @@ package ethash
 import (
 	"errors"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 var errEthashStopped = errors.New("ethash stopped")

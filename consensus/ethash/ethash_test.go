@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 // Tests that ethash works correctly in test mode.
@@ -55,7 +55,7 @@ func TestTestMode(t *testing.T) {
 }
 
 // This test checks that cache lru logic doesn't crash under load.
-// It reproduces https://jumbochain/issues/14943
+// It reproduces https://github.com/dhanuxcoin/go-evm/issues/14943
 func TestCacheFileEvict(t *testing.T) {
 	tmpdir, err := ioutil.TempDir("", "ethash-test")
 	if err != nil {

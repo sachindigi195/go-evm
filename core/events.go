@@ -17,8 +17,8 @@
 package core
 
 import (
-	"jumbochain/common"
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

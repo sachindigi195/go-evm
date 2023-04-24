@@ -27,11 +27,11 @@ import (
 	"strings"
 	"testing"
 
-	"jumbochain/core"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/types"
-	"jumbochain/core/vm"
-	"jumbochain/eth/tracers/logger"
+	"github.com/dhanuxcoin/go-evm/core"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

@@ -20,9 +20,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/core/rawdb"
-	"jumbochain/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
 )
 
 // Tests that given a database with random data content, all parts of a snapshot

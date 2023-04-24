@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 func minSwapStack(n int) int {

@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 func TestPairingExpected(t *testing.T) {

@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"jumbochain/core"
-	"jumbochain/core/vm"
+	"github.com/dhanuxcoin/go-evm/core"
+	"github.com/dhanuxcoin/go-evm/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

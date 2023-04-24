@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"jumbochain/ethdb"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/rlp"
 	"github.com/stretchr/testify/require"
 )
 

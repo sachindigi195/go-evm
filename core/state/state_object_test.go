@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

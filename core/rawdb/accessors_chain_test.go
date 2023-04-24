@@ -27,11 +27,11 @@ import (
 	"reflect"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/crypto"
-	"jumbochain/params"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

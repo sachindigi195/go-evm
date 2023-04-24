@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/consensus/ethash"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/types"
-	"jumbochain/core/vm"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus/ethash"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // rewindTest is a test case for chain rollback upon user request.

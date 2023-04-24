@@ -7,9 +7,9 @@ import (
 	"errors"
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/common/math"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common/math"
 )
 
 var _ = (*genesisAccountMarshaling)(nil)

@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 var (

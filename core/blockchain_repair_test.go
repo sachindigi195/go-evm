@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/consensus/ethash"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/types"
-	"jumbochain/core/vm"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus/ethash"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // Tests a recovery for a short canonical chain where a recent block was already
@@ -1867,7 +1867,7 @@ func testRepair(t *testing.T, tt *rewindTest, snapshots bool) {
 	}
 }
 
-// TestIssue23496 tests scenario described in https://jumbochain/pull/23496#issuecomment-926393893
+// TestIssue23496 tests scenario described in https://github.com/dhanuxcoin/go-evm/pull/23496#issuecomment-926393893
 // Credits to @zzyalbert for finding the issue.
 //
 // Local chain owns these blocks:

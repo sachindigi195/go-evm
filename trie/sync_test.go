@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/crypto"
-	"jumbochain/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

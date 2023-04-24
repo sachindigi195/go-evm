@@ -25,10 +25,10 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"jumbochain/common"
-	"jumbochain/core/rawdb"
-	"jumbochain/crypto"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // randomHash generates a random blob of data and returns it as a hash.

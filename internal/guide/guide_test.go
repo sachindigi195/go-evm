@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/accounts/keystore"
-	"jumbochain/common"
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/accounts/keystore"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 // Tests that the account management snippets work correctly.

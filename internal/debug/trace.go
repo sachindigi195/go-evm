@@ -24,7 +24,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"jumbochain/common"
-	"jumbochain/common/math"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

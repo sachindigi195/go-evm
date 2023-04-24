@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/metrics"
+	"github.com/dhanuxcoin/go-evm/metrics"
 	"github.com/stretchr/testify/require"
 )
 

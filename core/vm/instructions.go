@@ -19,9 +19,9 @@ package vm
 import (
 	"sync/atomic"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/params"
 	"github.com/holiman/uint256"
 	"golang.org/x/crypto/sha3"
 )

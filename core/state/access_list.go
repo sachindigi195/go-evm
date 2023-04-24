@@ -17,7 +17,7 @@
 package state
 
 import (
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 type accessList struct {

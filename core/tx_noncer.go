@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"jumbochain/common"
-	"jumbochain/core/state"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

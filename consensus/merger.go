@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"jumbochain/core/rawdb"
-	"jumbochain/ethdb"
-	"jumbochain/log"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // transitionStatus describes the status of eth1/2 transition. This switch

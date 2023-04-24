@@ -22,11 +22,11 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	"jumbochain/common"
-	"jumbochain/common/math"
-	"jumbochain/core/types"
-	"jumbochain/log"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

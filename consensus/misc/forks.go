@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

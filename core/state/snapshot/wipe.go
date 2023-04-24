@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/ethdb"
-	"jumbochain/log"
-	"jumbochain/metrics"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/metrics"
 )
 
 // wipeKeyRange deletes a range of keys from the database starting with prefix

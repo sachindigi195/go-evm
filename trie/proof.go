@@ -21,10 +21,10 @@ import (
 	"errors"
 	"fmt"
 
-	"jumbochain/common"
-	"jumbochain/ethdb"
-	"jumbochain/ethdb/memorydb"
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/log"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

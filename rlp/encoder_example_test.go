@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 type MyCoolType struct {

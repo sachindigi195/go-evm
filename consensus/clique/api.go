@@ -20,12 +20,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/consensus"
-	"jumbochain/core/types"
-	"jumbochain/rlp"
-	"jumbochain/rpc"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/rlp"
+	"github.com/dhanuxcoin/go-evm/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

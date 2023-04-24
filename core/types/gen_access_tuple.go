@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 // MarshalJSON marshals as JSON.

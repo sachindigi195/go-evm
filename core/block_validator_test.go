@@ -23,16 +23,16 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/consensus"
-	"jumbochain/consensus/beacon"
-	"jumbochain/consensus/clique"
-	"jumbochain/consensus/ethash"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/types"
-	"jumbochain/core/vm"
-	"jumbochain/crypto"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/consensus/beacon"
+	"github.com/dhanuxcoin/go-evm/consensus/clique"
+	"github.com/dhanuxcoin/go-evm/consensus/ethash"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"jumbochain/common/math"
+	"github.com/dhanuxcoin/go-evm/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

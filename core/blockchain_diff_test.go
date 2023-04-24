@@ -29,17 +29,17 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"jumbochain/common"
-	"jumbochain/consensus/ethash"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/state/snapshot"
-	"jumbochain/core/types"
-	"jumbochain/core/vm"
-	"jumbochain/crypto"
-	"jumbochain/ethdb"
-	"jumbochain/ethdb/memorydb"
-	"jumbochain/params"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus/ethash"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/state/snapshot"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 var (

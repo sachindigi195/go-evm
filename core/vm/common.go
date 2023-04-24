@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"jumbochain/common"
-	"jumbochain/common/math"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/math"
 	"github.com/holiman/uint256"
 )
 

@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"jumbochain/common"
-	"jumbochain/core/vm"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/vm"
 )
 
 const (

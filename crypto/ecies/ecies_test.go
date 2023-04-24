@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"jumbochain/crypto"
+	"github.com/dhanuxcoin/go-evm/crypto"
 )
 
 func TestKDF(t *testing.T) {

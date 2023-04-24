@@ -35,7 +35,7 @@ import (
 	"sync"
 	"time"
 
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/log"
 	"github.com/hashicorp/go-bexpr"
 )
 

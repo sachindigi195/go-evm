@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 //go:generate go run github.com/fjl/gencodec@latest -type AccessTuple -out gen_access_tuple.go

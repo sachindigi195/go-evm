@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/crypto"
-	"jumbochain/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
 )
 
 func TestStackTrieInsertAndHash(t *testing.T) {

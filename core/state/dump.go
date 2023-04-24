@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/core/types"
-	"jumbochain/log"
-	"jumbochain/rlp"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/rlp"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 // DumpConfig is a set of options to control what portions of the statewill be

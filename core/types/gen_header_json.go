@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
 )
 
 var _ = (*headerMarshaling)(nil)

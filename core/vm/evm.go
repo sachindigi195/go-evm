@@ -24,9 +24,9 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"jumbochain/common"
-	"jumbochain/crypto"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

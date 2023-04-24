@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // Forks table defines supported forks and their chain config.

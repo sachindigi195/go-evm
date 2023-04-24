@@ -9,11 +9,11 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/event"
-	"jumbochain/log"
-	"jumbochain/metrics"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/event"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/metrics"
 )
 
 const (

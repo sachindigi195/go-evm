@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"jumbochain/core/types"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 func decodeEncode(input []byte, val interface{}, i int) {

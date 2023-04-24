@@ -20,7 +20,7 @@ import (
 	"container/heap"
 	"time"
 
-	"jumbochain/common/mclock"
+	"github.com/dhanuxcoin/go-evm/common/mclock"
 )
 
 // LazyQueue is a priority queue data structure where priorities can change over

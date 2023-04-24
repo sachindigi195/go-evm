@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/consensus"
-	"jumbochain/consensus/ethash"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/types"
-	"jumbochain/log"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/consensus/ethash"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 func verifyUnbrokenCanonchain(hc *HeaderChain) error {

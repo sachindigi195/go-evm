@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/state"
-	"jumbochain/core/vm"
-	"jumbochain/crypto"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

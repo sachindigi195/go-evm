@@ -19,11 +19,11 @@ package trie
 import (
 	"fmt"
 
-	"jumbochain/core/types"
-	"jumbochain/ethdb"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/ethdb"
 
-	"jumbochain/common"
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/log"
 )
 
 type EmptyTrie struct{}

@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

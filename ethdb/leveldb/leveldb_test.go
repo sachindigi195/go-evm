@@ -19,8 +19,8 @@ package leveldb
 import (
 	"testing"
 
-	"jumbochain/ethdb"
-	"jumbochain/ethdb/dbtest"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )

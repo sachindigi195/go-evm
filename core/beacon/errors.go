@@ -16,7 +16,7 @@
 
 package beacon
 
-import "jumbochain/rpc"
+import "github.com/dhanuxcoin/go-evm/rpc"
 
 var (
 	VALID              = GenericStringResponse{"VALID"}

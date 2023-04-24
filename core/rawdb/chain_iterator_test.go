@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

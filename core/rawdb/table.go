@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"jumbochain/ethdb"
+	"github.com/dhanuxcoin/go-evm/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

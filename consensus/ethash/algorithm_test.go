@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

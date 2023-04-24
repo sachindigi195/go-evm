@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/log"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

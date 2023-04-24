@@ -19,9 +19,9 @@ package main
 
 import (
 	"fmt"
-	"jumbochain/cmd/evm/internal/t8ntool"
-	"jumbochain/cmd/utils"
-	"jumbochain/internal/flags"
+	"github.com/dhanuxcoin/go-evm/cmd/evm/internal/t8ntool"
+	"github.com/dhanuxcoin/go-evm/cmd/utils"
+	"github.com/dhanuxcoin/go-evm/internal/flags"
 	"math/big"
 
 	"gopkg.in/urfave/cli.v1"

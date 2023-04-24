@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/types"
-	"jumbochain/ethdb"
-	"jumbochain/event"
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/event"
+	"github.com/dhanuxcoin/go-evm/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

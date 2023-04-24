@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/consensus"
-	"jumbochain/consensus/misc"
-	"jumbochain/core/state"
-	"jumbochain/core/systemcontracts"
-	"jumbochain/core/types"
-	"jumbochain/core/vm"
-	"jumbochain/ethdb"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/consensus/misc"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/systemcontracts"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // BlockGen creates blocks for testing.

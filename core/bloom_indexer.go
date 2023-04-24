@@ -20,12 +20,12 @@ import (
 	"context"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/common/bitutil"
-	"jumbochain/core/bloombits"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/types"
-	"jumbochain/ethdb"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/bitutil"
+	"github.com/dhanuxcoin/go-evm/core/bloombits"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/ethdb"
 )
 
 const (

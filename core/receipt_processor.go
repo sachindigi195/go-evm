@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sync"
 
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 type ReceiptProcessor interface {

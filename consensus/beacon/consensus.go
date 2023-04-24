@@ -22,14 +22,14 @@ import (
 	"math/big"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/consensus"
-	"jumbochain/consensus/misc"
-	"jumbochain/core/state"
-	"jumbochain/core/types"
-	"jumbochain/params"
-	"jumbochain/rpc"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/consensus/misc"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rpc"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 // Proof-of-stake protocol constants.

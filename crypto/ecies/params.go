@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "jumbochain/crypto"
+	ethcrypto "github.com/dhanuxcoin/go-evm/crypto"
 )
 
 var (

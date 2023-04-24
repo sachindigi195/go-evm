@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"jumbochain/tests/fuzzers/les"
+	"github.com/dhanuxcoin/go-evm/tests/fuzzers/les"
 )
 
 func main() {

@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/crypto"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 func TestEIP155Signing(t *testing.T) {

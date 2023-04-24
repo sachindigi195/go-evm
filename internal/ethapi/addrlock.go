@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 type AddrLocker struct {

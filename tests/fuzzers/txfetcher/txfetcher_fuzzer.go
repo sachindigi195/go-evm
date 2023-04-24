@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/common/mclock"
-	"jumbochain/core/types"
-	"jumbochain/eth/fetcher"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/mclock"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/eth/fetcher"
 )
 
 var (

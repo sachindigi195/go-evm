@@ -21,8 +21,8 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"jumbochain/common"
-	"jumbochain/metrics"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/metrics"
 	"github.com/holiman/uint256"
 )
 

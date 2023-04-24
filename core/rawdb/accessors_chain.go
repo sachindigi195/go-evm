@@ -24,13 +24,13 @@ import (
 	"math/big"
 	"sort"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/crypto"
-	"jumbochain/ethdb"
-	"jumbochain/log"
-	"jumbochain/params"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // ReadCanonicalHash retrieves the hash assigned to a canonical block number.

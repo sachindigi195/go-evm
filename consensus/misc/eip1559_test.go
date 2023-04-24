@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // copyConfig does a _shallow_ copy of a given config. Safe to set new values, but

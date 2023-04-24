@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"jumbochain/common"
-	"jumbochain/ethdb/memorydb"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 // randTest performs random trie operations.

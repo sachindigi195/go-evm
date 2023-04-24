@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 // Runs multiple tests with randomized parameters.

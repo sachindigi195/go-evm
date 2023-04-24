@@ -17,11 +17,11 @@
 package core
 
 import (
-	"jumbochain/consensus"
-	"jumbochain/core/state"
-	"jumbochain/core/types"
-	"jumbochain/core/vm"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 const prefetchThread = 3

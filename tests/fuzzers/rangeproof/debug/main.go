@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"jumbochain/tests/fuzzers/rangeproof"
+	"github.com/dhanuxcoin/go-evm/tests/fuzzers/rangeproof"
 )
 
 func main() {

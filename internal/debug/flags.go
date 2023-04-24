@@ -24,9 +24,9 @@ import (
 	"os"
 	"runtime"
 
-	"jumbochain/log"
-	"jumbochain/metrics"
-	"jumbochain/metrics/exp"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/metrics"
+	"github.com/dhanuxcoin/go-evm/metrics/exp"
 	"github.com/fjl/memsize/memsizeui"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"

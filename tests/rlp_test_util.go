@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

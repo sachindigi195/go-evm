@@ -19,7 +19,7 @@ package bloombits
 import (
 	"sync"
 
-	"jumbochain/common/gopool"
+	"github.com/dhanuxcoin/go-evm/common/gopool"
 )
 
 // request represents a bloom retrieval task to prioritize and pull from the local

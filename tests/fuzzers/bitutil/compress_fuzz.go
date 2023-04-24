@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"jumbochain/common/bitutil"
+	"github.com/dhanuxcoin/go-evm/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

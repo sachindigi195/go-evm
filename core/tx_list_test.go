@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"jumbochain/core/types"
-	"jumbochain/crypto"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

@@ -19,10 +19,10 @@ package shutdowncheck
 import (
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/core/rawdb"
-	"jumbochain/ethdb"
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
 )
 
 // ShutdownTracker is a service that reports previous unclean shutdowns

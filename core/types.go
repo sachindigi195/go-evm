@@ -17,9 +17,9 @@
 package core
 
 import (
-	"jumbochain/core/state"
-	"jumbochain/core/types"
-	"jumbochain/core/vm"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

@@ -27,7 +27,7 @@ const (
 
 // locationTrims are trimmed for display to avoid unwieldy log lines.
 var locationTrims = []string{
-	"jumbochain/",
+	"github.com/dhanuxcoin/go-evm/",
 }
 
 // PrintOrigins sets or unsets log location (file:line) printing for terminal

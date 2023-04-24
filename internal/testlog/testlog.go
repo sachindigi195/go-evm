@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

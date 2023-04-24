@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"jumbochain/core/state"
-	"jumbochain/core/types"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 var (

@@ -21,9 +21,9 @@ import (
 	"errors"
 	"os"
 
-	"jumbochain/common"
-	"jumbochain/core/rawdb"
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/log"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 )
 

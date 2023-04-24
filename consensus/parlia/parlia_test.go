@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 func TestImpactOfValidatorOutOfService(t *testing.T) {

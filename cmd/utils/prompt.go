@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"jumbochain/console/prompt"
+	"github.com/dhanuxcoin/go-evm/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

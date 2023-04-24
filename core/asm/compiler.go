@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"jumbochain/common/math"
-	"jumbochain/core/vm"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/core/vm"
 )
 
 // Compiler contains information about the parsed source

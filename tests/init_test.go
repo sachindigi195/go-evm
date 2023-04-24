@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 var (

@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"jumbochain/rlp/internal/rlpstruct"
+	"github.com/dhanuxcoin/go-evm/rlp/internal/rlpstruct"
 )
 
 // typeinfo is an entry in the type cache.

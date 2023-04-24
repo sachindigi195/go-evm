@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync"
 
-	"jumbochain/rlp/internal/rlpstruct"
+	"github.com/dhanuxcoin/go-evm/rlp/internal/rlpstruct"
 )
 
 //lint:ignore ST1012 EOL is not an error.

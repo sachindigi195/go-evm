@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"jumbochain/core/vm"
-	"jumbochain/tests"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

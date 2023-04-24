@@ -21,8 +21,8 @@ import (
 	"container/heap"
 	"errors"
 
-	"jumbochain/common"
-	"jumbochain/ethdb"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

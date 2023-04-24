@@ -35,8 +35,8 @@ import (
 	"sort"
 	"strconv"
 
-	"jumbochain/core"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/core"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

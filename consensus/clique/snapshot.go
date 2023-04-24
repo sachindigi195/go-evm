@@ -22,11 +22,11 @@ import (
 	"sort"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/ethdb"
-	"jumbochain/log"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/params"
 	lru "github.com/hashicorp/golang-lru"
 )
 

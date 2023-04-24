@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 //go:generate go run github.com/fjl/gencodec@latest -type Log -field-override logMarshaling -out gen_log_json.go

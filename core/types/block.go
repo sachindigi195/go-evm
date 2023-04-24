@@ -27,10 +27,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/crypto"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 var (

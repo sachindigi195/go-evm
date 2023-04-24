@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 type DynamicFeeTx struct {

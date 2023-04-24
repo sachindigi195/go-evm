@@ -19,11 +19,11 @@ package state
 import (
 	"bytes"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/ethdb"
-	"jumbochain/rlp"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/rlp"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

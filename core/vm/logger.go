@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"time"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

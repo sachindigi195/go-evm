@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"jumbochain/consensus/ethash"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/vm"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/consensus/ethash"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

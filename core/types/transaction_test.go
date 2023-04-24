@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/crypto"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

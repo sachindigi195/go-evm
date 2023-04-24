@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/ethdb"
-	"jumbochain/log"
-	"jumbochain/params"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // FreezerType enumerator

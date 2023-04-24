@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"jumbochain/core/asm"
+	"github.com/dhanuxcoin/go-evm/core/asm"
 	"gopkg.in/urfave/cli.v1"
 )
 

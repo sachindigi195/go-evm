@@ -23,10 +23,10 @@ import (
 	"reflect"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/crypto"
-	"jumbochain/params"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 var (

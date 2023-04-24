@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"jumbochain/ethdb"
+	"github.com/dhanuxcoin/go-evm/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

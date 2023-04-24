@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"sync"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/crypto"
-	"jumbochain/log"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 var (

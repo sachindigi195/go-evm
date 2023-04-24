@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"jumbochain/tests/fuzzers/difficulty"
+	"github.com/dhanuxcoin/go-evm/tests/fuzzers/difficulty"
 )
 
 func main() {

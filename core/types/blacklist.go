@@ -1,6 +1,6 @@
 package types
 
-import "jumbochain/common"
+import "github.com/dhanuxcoin/go-evm/common"
 
 // This is introduced because of the Tendermint IAVL Merkle Proof verification exploitation.
 var NanoBlackList = []common.Address{

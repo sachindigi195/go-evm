@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 func TestTransaction(t *testing.T) {

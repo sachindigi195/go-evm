@@ -21,10 +21,10 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"jumbochain/common"
-	"jumbochain/core/rawdb"
-	"jumbochain/ethdb/memorydb"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

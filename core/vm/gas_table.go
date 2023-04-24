@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"jumbochain/common"
-	"jumbochain/common/math"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

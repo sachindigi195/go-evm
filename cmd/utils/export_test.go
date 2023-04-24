@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/core/rawdb"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

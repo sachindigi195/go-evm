@@ -28,14 +28,14 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/core/rawdb"
-	"jumbochain/core/state"
-	"jumbochain/core/types"
-	"jumbochain/crypto"
-	"jumbochain/event"
-	"jumbochain/params"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/rawdb"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/event"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 var (

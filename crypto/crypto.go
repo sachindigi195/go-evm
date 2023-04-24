@@ -33,9 +33,9 @@ import (
 
 	"github.com/VictoriaMetrics/fastcache"
 
-	"jumbochain/common"
-	"jumbochain/common/math"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

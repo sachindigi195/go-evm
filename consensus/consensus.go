@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/core/state"
-	"jumbochain/core/types"
-	"jumbochain/params"
-	"jumbochain/rpc"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rpc"
 )
 
 var (

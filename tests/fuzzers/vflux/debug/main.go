@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"jumbochain/log"
-	"jumbochain/tests/fuzzers/vflux"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/tests/fuzzers/vflux"
 )
 
 func main() {

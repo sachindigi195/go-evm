@@ -23,7 +23,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"jumbochain/common/gopool"
+	"github.com/dhanuxcoin/go-evm/common/gopool"
 )
 
 // stateFn is used through the lifetime of the

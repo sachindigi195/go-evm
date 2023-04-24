@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 func (g *G1) one() *PointG1 {

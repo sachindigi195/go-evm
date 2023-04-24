@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/common/math"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

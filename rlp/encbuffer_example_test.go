@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 func ExampleEncoderBuffer() {

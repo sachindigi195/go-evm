@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

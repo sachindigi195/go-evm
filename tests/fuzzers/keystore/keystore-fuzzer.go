@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"jumbochain/accounts/keystore"
+	"github.com/dhanuxcoin/go-evm/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

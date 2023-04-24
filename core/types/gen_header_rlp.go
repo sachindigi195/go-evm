@@ -5,7 +5,7 @@
 
 package types
 
-import "jumbochain/rlp"
+import "github.com/dhanuxcoin/go-evm/rlp"
 import "io"
 
 func (obj *Header) EncodeRLP(_w io.Writer) error {

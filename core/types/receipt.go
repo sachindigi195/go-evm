@@ -24,11 +24,11 @@ import (
 	"math/big"
 	"unsafe"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/crypto"
-	"jumbochain/params"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 //go:generate go run github.com/fjl/gencodec@latest -type Receipt -field-override receiptMarshaling -out gen_receipt_json.go

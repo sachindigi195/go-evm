@@ -3,7 +3,7 @@ package state
 import (
 	"sync"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 // sharedPool is used to store maps of originStorage of stateObjects

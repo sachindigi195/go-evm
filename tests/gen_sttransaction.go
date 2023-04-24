@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"jumbochain/common/hexutil"
-	"jumbochain/common/math"
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common/math"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 var _ = (*stTransactionMarshaling)(nil)

@@ -24,12 +24,12 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/core/types"
-	"jumbochain/crypto"
-	"jumbochain/rlp"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/rlp"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 func TestDeriveSha(t *testing.T) {

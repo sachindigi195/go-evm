@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/crypto"
-	"jumbochain/ethdb"
-	"jumbochain/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
 )
 
 func TestEmptyIterator(t *testing.T) {

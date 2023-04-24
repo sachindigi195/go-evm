@@ -34,11 +34,11 @@ import (
 	"unsafe"
 
 	"github.com/edsrzf/mmap-go"
-	"jumbochain/common/gopool"
-	"jumbochain/consensus"
-	"jumbochain/log"
-	"jumbochain/metrics"
-	"jumbochain/rpc"
+	"github.com/dhanuxcoin/go-evm/common/gopool"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/metrics"
+	"github.com/dhanuxcoin/go-evm/rpc"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
 

@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/rlp"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 )
 

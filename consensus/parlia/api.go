@@ -17,10 +17,10 @@
 package parlia
 
 import (
-	"jumbochain/common"
-	"jumbochain/consensus"
-	"jumbochain/core/types"
-	"jumbochain/rpc"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/consensus"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/rpc"
 )
 
 // API is a user facing RPC API to allow query snapshot and validators

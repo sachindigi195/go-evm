@@ -22,10 +22,10 @@ import (
 	"sync"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/common/gopool"
-	"jumbochain/crypto"
-	"jumbochain/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/gopool"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
 )
 
 func newEmptySecure() *SecureTrie {

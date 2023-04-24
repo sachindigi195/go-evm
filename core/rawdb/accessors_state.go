@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"jumbochain/common"
-	"jumbochain/ethdb"
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

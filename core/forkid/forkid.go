@@ -26,10 +26,10 @@ import (
 	"reflect"
 	"strings"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/log"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 var (

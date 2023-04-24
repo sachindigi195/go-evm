@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"jumbochain/common"
-	"jumbochain/ethdb"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

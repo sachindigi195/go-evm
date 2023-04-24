@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"jumbochain/crypto"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/crypto"
+	"github.com/dhanuxcoin/go-evm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

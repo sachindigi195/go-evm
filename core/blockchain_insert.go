@@ -19,10 +19,10 @@ package core
 import (
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/common/mclock"
-	"jumbochain/core/types"
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/mclock"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/log"
 )
 
 // insertStats tracks and reports on block insertion.

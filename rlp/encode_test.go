@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"jumbochain/common/math"
+	"github.com/dhanuxcoin/go-evm/common/math"
 )
 
 type testEncoder struct {

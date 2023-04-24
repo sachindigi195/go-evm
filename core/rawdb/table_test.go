@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"jumbochain/ethdb"
+	"github.com/dhanuxcoin/go-evm/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

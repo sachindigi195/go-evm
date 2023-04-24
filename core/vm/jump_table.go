@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 type (

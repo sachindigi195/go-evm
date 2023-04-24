@@ -25,9 +25,9 @@ import (
 	"io"
 	"sync"
 
-	"jumbochain/common"
-	"jumbochain/ethdb"
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
 )
 
 var ErrCommitDisabled = errors.New("no database for committing")

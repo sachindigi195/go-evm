@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 // hashes is a helper to implement sort.Interface.

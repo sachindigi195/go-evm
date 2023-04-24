@@ -23,11 +23,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"jumbochain/core/state"
-	"jumbochain/core/vm"
-	"jumbochain/eth/tracers/logger"
-	"jumbochain/log"
-	"jumbochain/tests"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/vm"
+	"github.com/dhanuxcoin/go-evm/eth/tracers/logger"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

@@ -28,7 +28,7 @@ import (
 	"golang.org/x/tools/go/packages"
 )
 
-const pathOfPackageRLP = "jumbochain/rlp"
+const pathOfPackageRLP = "github.com/dhanuxcoin/go-evm/rlp"
 
 func main() {
 	var (

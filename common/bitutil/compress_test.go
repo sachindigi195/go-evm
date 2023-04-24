@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"jumbochain/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

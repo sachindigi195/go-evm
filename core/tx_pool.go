@@ -26,15 +26,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/common/prque"
-	"jumbochain/consensus/misc"
-	"jumbochain/core/state"
-	"jumbochain/core/types"
-	"jumbochain/event"
-	"jumbochain/log"
-	"jumbochain/metrics"
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/prque"
+	"github.com/dhanuxcoin/go-evm/consensus/misc"
+	"github.com/dhanuxcoin/go-evm/core/state"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/event"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/metrics"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 const (

@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/core/types"
-	"jumbochain/internal/testlog"
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/internal/testlog"
+	"github.com/dhanuxcoin/go-evm/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

@@ -23,9 +23,9 @@ import (
 	"io"
 	"sort"
 
-	"jumbochain/common"
-	"jumbochain/ethdb/memorydb"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb/memorydb"
+	"github.com/dhanuxcoin/go-evm/trie"
 )
 
 type kv struct {

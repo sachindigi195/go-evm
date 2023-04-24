@@ -21,13 +21,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"jumbochain/common"
-	"jumbochain/common/gopool"
-	"jumbochain/common/prque"
-	"jumbochain/core/types"
-	"jumbochain/ethdb"
-	"jumbochain/log"
-	"jumbochain/rlp"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/gopool"
+	"github.com/dhanuxcoin/go-evm/common/prque"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/rlp"
 )
 
 // InitDatabaseFromFreezer reinitializes an empty database from a previous batch

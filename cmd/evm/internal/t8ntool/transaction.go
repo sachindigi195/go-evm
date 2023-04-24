@@ -24,14 +24,14 @@ import (
 	"os"
 	"strings"
 
-	"jumbochain/common"
-	"jumbochain/common/hexutil"
-	"jumbochain/core"
-	"jumbochain/core/types"
-	"jumbochain/log"
-	"jumbochain/params"
-	"jumbochain/rlp"
-	"jumbochain/tests"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/common/hexutil"
+	"github.com/dhanuxcoin/go-evm/core"
+	"github.com/dhanuxcoin/go-evm/core/types"
+	"github.com/dhanuxcoin/go-evm/log"
+	"github.com/dhanuxcoin/go-evm/params"
+	"github.com/dhanuxcoin/go-evm/rlp"
+	"github.com/dhanuxcoin/go-evm/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

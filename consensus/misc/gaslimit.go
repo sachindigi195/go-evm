@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"jumbochain/params"
+	"github.com/dhanuxcoin/go-evm/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"jumbochain/common"
-	"jumbochain/core/vm/runtime"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/core/vm/runtime"
 )
 
 func ExampleExecute() {

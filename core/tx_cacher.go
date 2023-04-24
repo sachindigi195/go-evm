@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

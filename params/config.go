@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"jumbochain/common"
+	"github.com/dhanuxcoin/go-evm/common"
 )
 
 // Genesis hashes to enforce below configs on.

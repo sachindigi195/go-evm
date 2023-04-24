@@ -25,9 +25,9 @@ import (
 	"io"
 	"sort"
 
-	"jumbochain/common"
-	"jumbochain/ethdb"
-	"jumbochain/trie"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/trie"
 	"golang.org/x/crypto/sha3"
 )
 

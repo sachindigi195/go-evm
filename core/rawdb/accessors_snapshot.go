@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"jumbochain/common"
-	"jumbochain/ethdb"
-	"jumbochain/log"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/log"
 )
 
 // ReadSnapshotDisabled retrieves if the snapshot maintenance is disabled.

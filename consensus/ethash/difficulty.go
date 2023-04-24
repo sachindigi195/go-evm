@@ -19,7 +19,7 @@ package ethash
 import (
 	"math/big"
 
-	"jumbochain/core/types"
+	"github.com/dhanuxcoin/go-evm/core/types"
 	"github.com/holiman/uint256"
 )
 

@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"jumbochain/common"
-	"jumbochain/ethdb"
+	"github.com/dhanuxcoin/go-evm/common"
+	"github.com/dhanuxcoin/go-evm/ethdb"
 )
 
 var (

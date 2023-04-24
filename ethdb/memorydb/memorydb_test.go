@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"jumbochain/ethdb"
-	"jumbochain/ethdb/dbtest"
+	"github.com/dhanuxcoin/go-evm/ethdb"
+	"github.com/dhanuxcoin/go-evm/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {
