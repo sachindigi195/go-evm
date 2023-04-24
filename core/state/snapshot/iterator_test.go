@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/rawdb"
 )
 
 // TestAccountIteratorBasics tests some simple single-layer(diff and disk) iteration

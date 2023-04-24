@@ -26,15 +26,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/prque"
-	"/home/vandna/Desktop/go-evm/consensus/misc"
-	"/home/vandna/Desktop/go-evm/core/state"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/event"
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/metrics"
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/prque"
+	"github.com/sachindigi195/go-evm/consensus/misc"
+	"github.com/sachindigi195/go-evm/core/state"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/event"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/metrics"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 const (

@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/ethdb/memorydb"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"/home/vandna/Desktop/go-evm/common/hexutil"
+	"github.com/sachindigi195/go-evm/common/hexutil"
 )
 
 type MyType [5]byte

@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/crypto"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/crypto"
 )
 
 func TestBloom(t *testing.T) {

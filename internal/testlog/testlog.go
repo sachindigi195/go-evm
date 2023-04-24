@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/log"
+	"github.com/sachindigi195/go-evm/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/consensus"
-	"/home/vandna/Desktop/go-evm/consensus/ethash"
-	"/home/vandna/Desktop/go-evm/core/rawdb"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/consensus"
+	"github.com/sachindigi195/go-evm/consensus/ethash"
+	"github.com/sachindigi195/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 func verifyUnbrokenCanonchain(hc *HeaderChain) error {

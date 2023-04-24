@@ -7,7 +7,7 @@ import (
 	"go/types"
 	"sort"
 
-	"/home/vandna/Desktop/go-evm/rlp/internal/rlpstruct"
+	"github.com/sachindigi195/go-evm/rlp/internal/rlpstruct"
 )
 
 // buildContext keeps the data needed for make*Op.

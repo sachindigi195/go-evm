@@ -10,12 +10,12 @@
 //
 // These two files combined make it so `go mod vendor` behaves correctly.
 //
-// See this issue for reference: https://github.com/golang/go/issues/26366
+// See this issue for reference: https:/github.com/golang/go/issues/26366
 
 package secp256k1
 
 import (
-	_ "/home/vandna/Desktop/go-evm/crypto/secp256k1/libsecp256k1/include"
-	_ "/home/vandna/Desktop/go-evm/crypto/secp256k1/libsecp256k1/src"
-	_ "/home/vandna/Desktop/go-evm/crypto/secp256k1/libsecp256k1/src/modules/recovery"
+	_ "github.com/sachindigi195/go-evm/crypto/secp256k1/libsecp256k1/include"
+	_ "github.com/sachindigi195/go-evm/crypto/secp256k1/libsecp256k1/src"
+	_ "github.com/sachindigi195/go-evm/crypto/secp256k1/libsecp256k1/src/modules/recovery"
 )

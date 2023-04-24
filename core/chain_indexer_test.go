@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/rawdb"
-	"/home/vandna/Desktop/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/core/types"
 )
 
 // Runs multiple tests with randomized parameters.

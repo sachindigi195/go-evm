@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/hexutil"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/hexutil"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 //go:generate go run github.com/fjl/gencodec@latest -type Log -field-override logMarshaling -out gen_log_json.go

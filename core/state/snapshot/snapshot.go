@@ -24,14 +24,14 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/rawdb"
-	"/home/vandna/Desktop/go-evm/crypto"
-	"/home/vandna/Desktop/go-evm/ethdb"
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/metrics"
-	"/home/vandna/Desktop/go-evm/rlp"
-	"/home/vandna/Desktop/go-evm/trie"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/crypto"
+	"github.com/sachindigi195/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/metrics"
+	"github.com/sachindigi195/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/trie"
 )
 
 var (

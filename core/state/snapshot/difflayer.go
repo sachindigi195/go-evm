@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/rlp"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 var (

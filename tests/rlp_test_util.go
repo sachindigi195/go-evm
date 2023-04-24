@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

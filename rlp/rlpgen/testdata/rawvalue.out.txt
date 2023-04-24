@@ -1,6 +1,6 @@
 package test
 
-import "/home/vandna/Desktop/go-evm/rlp"
+import "github.com/sachindigi195/go-evm/rlp"
 import "io"
 
 func (obj *Test) EncodeRLP(_w io.Writer) error {

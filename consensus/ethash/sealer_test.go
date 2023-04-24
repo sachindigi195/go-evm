@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/internal/testlog"
-	"/home/vandna/Desktop/go-evm/log"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/internal/testlog"
+	"github.com/sachindigi195/go-evm/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

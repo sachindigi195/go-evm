@@ -25,16 +25,16 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/gopool"
-	"/home/vandna/Desktop/go-evm/common/math"
-	"/home/vandna/Desktop/go-evm/consensus"
-	"/home/vandna/Desktop/go-evm/consensus/misc"
-	"/home/vandna/Desktop/go-evm/core/state"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/params"
-	"/home/vandna/Desktop/go-evm/rlp"
-	"/home/vandna/Desktop/go-evm/trie"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/gopool"
+	"github.com/sachindigi195/go-evm/common/math"
+	"github.com/sachindigi195/go-evm/consensus"
+	"github.com/sachindigi195/go-evm/consensus/misc"
+	"github.com/sachindigi195/go-evm/core/state"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/params"
+	"github.com/sachindigi195/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/trie"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -370,7 +370,7 @@ func makeDifficultyCalculator(bombDelay *big.Int) func(time uint64, parent *type
 	// the block number. Thus we remove one from the delay given
 	bombDelayFromParent := new(big.Int).Sub(bombDelay, big1)
 	return func(time uint64, parent *types.Header) *big.Int {
-		// https://github.com/ethereum/EIPs/issues/100.
+		// https:/github.com/ethereum/EIPs/issues/100.
 		// algorithm:
 		// diff = (parent_diff +
 		//         (parent_diff / 2048 * max((2 if len(parent.uncles) else 1) - ((timestamp - parent.timestamp) // 9), -99))
@@ -429,7 +429,7 @@ func makeDifficultyCalculator(bombDelay *big.Int) func(time uint64, parent *type
 // the difficulty that a new block should have when created at time given the
 // parent block's time and difficulty. The calculation uses the Homestead rules.
 func calcDifficultyHomestead(time uint64, parent *types.Header) *big.Int {
-	// https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.md
+	// https:/github.com/ethereum/EIPs/blob/master/EIPS/eip-2.md
 	// algorithm:
 	// diff = (parent_diff +
 	//         (parent_diff / 2048 * max(1 - (block_timestamp - parent_timestamp) // 10, -99))

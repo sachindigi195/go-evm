@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"/home/vandna/Desktop/go-evm/common"
+	"github.com/sachindigi195/go-evm/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

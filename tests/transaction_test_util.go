@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/hexutil"
-	"/home/vandna/Desktop/go-evm/core"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/params"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/hexutil"
+	"github.com/sachindigi195/go-evm/core"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/params"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

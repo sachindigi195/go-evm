@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/consensus"
-	"/home/vandna/Desktop/go-evm/core/state"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/params"
-	"/home/vandna/Desktop/go-evm/trie"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/consensus"
+	"github.com/sachindigi195/go-evm/core/state"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/params"
+	"github.com/sachindigi195/go-evm/trie"
 )
 
 const badBlockCacheExpire = 30 * time.Second

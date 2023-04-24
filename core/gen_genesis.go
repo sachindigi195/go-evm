@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/hexutil"
-	"/home/vandna/Desktop/go-evm/common/math"
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/hexutil"
+	"github.com/sachindigi195/go-evm/common/math"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

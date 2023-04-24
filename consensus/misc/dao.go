@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/core/state"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/core/state"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 var (

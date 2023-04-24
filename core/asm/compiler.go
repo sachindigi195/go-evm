@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"/home/vandna/Desktop/go-evm/common/math"
-	"/home/vandna/Desktop/go-evm/core/vm"
+	"github.com/sachindigi195/go-evm/common/math"
+	"github.com/sachindigi195/go-evm/core/vm"
 )
 
 // Compiler contains information about the parsed source

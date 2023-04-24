@@ -24,12 +24,12 @@ import (
 	"os"
 	"runtime"
 
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/metrics"
-	"/home/vandna/Desktop/go-evm/metrics/exp"
 	"github.com/fjl/memsize/memsizeui"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/metrics"
+	"github.com/sachindigi195/go-evm/metrics/exp"
 	"gopkg.in/urfave/cli.v1"
 )
 

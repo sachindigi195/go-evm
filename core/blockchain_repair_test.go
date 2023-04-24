@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/consensus/ethash"
-	"/home/vandna/Desktop/go-evm/core/rawdb"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/core/vm"
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/consensus/ethash"
+	"github.com/sachindigi195/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/core/vm"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 // Tests a recovery for a short canonical chain where a recent block was already
@@ -1867,7 +1867,7 @@ func testRepair(t *testing.T, tt *rewindTest, snapshots bool) {
 	}
 }
 
-// TestIssue23496 tests scenario described in https:///home/vandna/Desktop/go-evm/pull/23496#issuecomment-926393893
+// TestIssue23496 tests scenario described in https://github.com/sachindigi195/go-evm/pull/23496#issuecomment-926393893
 // Credits to @zzyalbert for finding the issue.
 //
 // Local chain owns these blocks:

@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/consensus"
-	"/home/vandna/Desktop/go-evm/consensus/misc"
-	"/home/vandna/Desktop/go-evm/core/state"
-	"/home/vandna/Desktop/go-evm/core/systemcontracts"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/core/vm"
-	"/home/vandna/Desktop/go-evm/ethdb"
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/consensus"
+	"github.com/sachindigi195/go-evm/consensus/misc"
+	"github.com/sachindigi195/go-evm/core/state"
+	"github.com/sachindigi195/go-evm/core/systemcontracts"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/core/vm"
+	"github.com/sachindigi195/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 // BlockGen creates blocks for testing.

@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/ethdb"
-	"/home/vandna/Desktop/go-evm/log"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/log"
 )
 
 // ReadSnapshotDisabled retrieves if the snapshot maintenance is disabled.

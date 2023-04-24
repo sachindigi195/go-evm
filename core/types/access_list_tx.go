@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
+	"github.com/sachindigi195/go-evm/common"
 )
 
 //go:generate go run github.com/fjl/gencodec@latest -type AccessTuple -out gen_access_tuple.go

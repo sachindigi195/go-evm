@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/math"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/math"
 )
 
 var _ = (*difficultyTestMarshaling)(nil)

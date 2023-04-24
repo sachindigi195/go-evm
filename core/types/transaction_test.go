@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/crypto"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/crypto"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

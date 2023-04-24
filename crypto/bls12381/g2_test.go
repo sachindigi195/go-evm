@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/common"
+	"github.com/sachindigi195/go-evm/common"
 )
 
 func (g *G2) one() *PointG2 {

@@ -19,15 +19,15 @@ package core
 import (
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/consensus"
-	"/home/vandna/Desktop/go-evm/core/rawdb"
-	"/home/vandna/Desktop/go-evm/core/state"
-	"/home/vandna/Desktop/go-evm/core/state/snapshot"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/event"
-	"/home/vandna/Desktop/go-evm/params"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/consensus"
+	"github.com/sachindigi195/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/core/state"
+	"github.com/sachindigi195/go-evm/core/state/snapshot"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/event"
+	"github.com/sachindigi195/go-evm/params"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 // CurrentHeader retrieves the current head header of the canonical chain. The

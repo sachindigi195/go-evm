@@ -23,17 +23,17 @@ import (
 	"math/big"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/consensus/ethash"
-	"/home/vandna/Desktop/go-evm/core"
-	"/home/vandna/Desktop/go-evm/core/rawdb"
-	"/home/vandna/Desktop/go-evm/core/vm"
-	"/home/vandna/Desktop/go-evm/eth/protocols/snap"
-	"/home/vandna/Desktop/go-evm/p2p"
-	"/home/vandna/Desktop/go-evm/p2p/enode"
-	"/home/vandna/Desktop/go-evm/params"
-	"/home/vandna/Desktop/go-evm/rlp"
 	fuzz "github.com/google/gofuzz"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/consensus/ethash"
+	"github.com/sachindigi195/go-evm/core"
+	"github.com/sachindigi195/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/core/vm"
+	"github.com/sachindigi195/go-evm/eth/protocols/snap"
+	"github.com/sachindigi195/go-evm/p2p"
+	"github.com/sachindigi195/go-evm/p2p/enode"
+	"github.com/sachindigi195/go-evm/params"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 var trieRoot common.Hash

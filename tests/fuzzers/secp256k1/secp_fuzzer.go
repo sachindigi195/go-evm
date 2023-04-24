@@ -22,8 +22,8 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"/home/vandna/Desktop/go-evm/crypto/secp256k1"
 	fuzz "github.com/google/gofuzz"
+	"github.com/sachindigi195/go-evm/crypto/secp256k1"
 )
 
 func Fuzz(input []byte) int {

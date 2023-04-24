@@ -23,9 +23,9 @@ import (
 	"io"
 	"sort"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/ethdb/memorydb"
-	"/home/vandna/Desktop/go-evm/trie"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/ethdb/memorydb"
+	"github.com/sachindigi195/go-evm/trie"
 )
 
 type kv struct {

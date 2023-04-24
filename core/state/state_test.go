@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/rawdb"
-	"/home/vandna/Desktop/go-evm/crypto"
-	"/home/vandna/Desktop/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/crypto"
+	"github.com/sachindigi195/go-evm/ethdb"
 )
 
 type stateTest struct {

@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 // Account is a modified version of a state.Account, where the root is replaced

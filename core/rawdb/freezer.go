@@ -26,12 +26,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/ethdb"
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/metrics"
-	"/home/vandna/Desktop/go-evm/params"
 	"github.com/prometheus/tsdb/fileutil"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/metrics"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 var (

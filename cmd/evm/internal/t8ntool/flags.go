@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"/home/vandna/Desktop/go-evm/core/vm"
-	"/home/vandna/Desktop/go-evm/tests"
+	"github.com/sachindigi195/go-evm/core/vm"
+	"github.com/sachindigi195/go-evm/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

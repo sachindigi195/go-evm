@@ -26,29 +26,29 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"/home/vandna/Desktop/go-evm/accounts"
-	"/home/vandna/Desktop/go-evm/accounts/abi"
-	"/home/vandna/Desktop/go-evm/accounts/keystore"
-	"/home/vandna/Desktop/go-evm/accounts/scwallet"
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/gopool"
-	"/home/vandna/Desktop/go-evm/common/hexutil"
-	"/home/vandna/Desktop/go-evm/common/math"
-	"/home/vandna/Desktop/go-evm/consensus"
-	"/home/vandna/Desktop/go-evm/consensus/ethash"
-	"/home/vandna/Desktop/go-evm/consensus/misc"
-	"/home/vandna/Desktop/go-evm/core"
-	"/home/vandna/Desktop/go-evm/core/rawdb"
-	"/home/vandna/Desktop/go-evm/core/state"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/core/vm"
-	"/home/vandna/Desktop/go-evm/crypto"
-	"/home/vandna/Desktop/go-evm/eth/tracers/logger"
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/p2p"
-	"/home/vandna/Desktop/go-evm/params"
-	"/home/vandna/Desktop/go-evm/rlp"
-	"/home/vandna/Desktop/go-evm/rpc"
+	"github.com/sachindigi195/go-evm/accounts"
+	"github.com/sachindigi195/go-evm/accounts/abi"
+	"github.com/sachindigi195/go-evm/accounts/keystore"
+	"github.com/sachindigi195/go-evm/accounts/scwallet"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/gopool"
+	"github.com/sachindigi195/go-evm/common/hexutil"
+	"github.com/sachindigi195/go-evm/common/math"
+	"github.com/sachindigi195/go-evm/consensus"
+	"github.com/sachindigi195/go-evm/consensus/ethash"
+	"github.com/sachindigi195/go-evm/consensus/misc"
+	"github.com/sachindigi195/go-evm/core"
+	"github.com/sachindigi195/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/core/state"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/core/vm"
+	"github.com/sachindigi195/go-evm/crypto"
+	"github.com/sachindigi195/go-evm/eth/tracers/logger"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/p2p"
+	"github.com/sachindigi195/go-evm/params"
+	"github.com/sachindigi195/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/rpc"
 	"github.com/tyler-smith/go-bip39"
 )
 
@@ -518,7 +518,7 @@ func (s *PrivateAccountAPI) SignTransaction(ctx context.Context, args Transactio
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https:///home/vandna/Desktop/go-evm/wiki/Management-APIs#personal_sign
+// https://github.com/sachindigi195/go-evm/wiki/Management-APIs#personal_sign
 func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -546,7 +546,7 @@ func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr c
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https:///home/vandna/Desktop/go-evm/wiki/Management-APIs#personal_ecRecover
+// https://github.com/sachindigi195/go-evm/wiki/Management-APIs#personal_ecRecover
 func (s *PrivateAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)
@@ -970,7 +970,7 @@ type revertError struct {
 }
 
 // ErrorCode returns the JSON error code for a revertal.
-// See: https://github.com/ethereum/wiki/wiki/JSON-RPC-Error-Codes-Improvement-Proposal
+// See: https:/github.com/ethereum/wiki/wiki/JSON-RPC-Error-Codes-Improvement-Proposal
 func (e *revertError) ErrorCode() int {
 	return 3
 }
@@ -2145,7 +2145,7 @@ func (s *PublicTransactionPoolAPI) SendRawTransaction(ctx context.Context, input
 //
 // The account associated with addr must be unlocked.
 //
-// https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_sign
+// https:/github.com/ethereum/wiki/wiki/JSON-RPC#eth_sign
 func (s *PublicTransactionPoolAPI) Sign(addr common.Address, data hexutil.Bytes) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}

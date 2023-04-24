@@ -33,9 +33,9 @@ import (
 
 	"github.com/VictoriaMetrics/fastcache"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/math"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/math"
+	"github.com/sachindigi195/go-evm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

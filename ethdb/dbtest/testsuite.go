@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

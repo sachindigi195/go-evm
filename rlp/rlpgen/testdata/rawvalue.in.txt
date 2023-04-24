@@ -2,7 +2,7 @@
 
 package test
 
-import "/home/vandna/Desktop/go-evm/rlp"
+import "github.com/sachindigi195/go-evm/rlp"
 
 type Test struct {
 	RawValue          rlp.RawValue

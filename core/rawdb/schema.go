@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/metrics"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

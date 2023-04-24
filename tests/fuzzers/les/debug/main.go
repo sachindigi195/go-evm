@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"/home/vandna/Desktop/go-evm/tests/fuzzers/les"
+	"github.com/sachindigi195/go-evm/tests/fuzzers/les"
 )
 
 func main() {

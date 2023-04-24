@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

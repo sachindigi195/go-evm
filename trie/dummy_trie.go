@@ -19,11 +19,11 @@ package trie
 import (
 	"fmt"
 
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/ethdb"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/log"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/log"
 )
 
 type EmptyTrie struct{}

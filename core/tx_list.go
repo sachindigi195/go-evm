@@ -25,8 +25,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/types"
 )
 
 var txSortedMapPool = sync.Pool{

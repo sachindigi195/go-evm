@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common/hexutil"
-	"/home/vandna/Desktop/go-evm/common/math"
-	"/home/vandna/Desktop/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/common/hexutil"
+	"github.com/sachindigi195/go-evm/common/math"
+	"github.com/sachindigi195/go-evm/core/types"
 )
 
 var _ = (*stTransactionMarshaling)(nil)

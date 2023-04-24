@@ -21,13 +21,13 @@ import (
 	"math"
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
-	cmath "/home/vandna/Desktop/go-evm/common/math"
-	"/home/vandna/Desktop/go-evm/consensus"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/core/vm"
-	"/home/vandna/Desktop/go-evm/crypto"
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/common"
+	cmath "github.com/sachindigi195/go-evm/common/math"
+	"github.com/sachindigi195/go-evm/consensus"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/core/vm"
+	"github.com/sachindigi195/go-evm/crypto"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

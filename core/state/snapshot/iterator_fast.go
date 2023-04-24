@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"/home/vandna/Desktop/go-evm/common"
+	"github.com/sachindigi195/go-evm/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

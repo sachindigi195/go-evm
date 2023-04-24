@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"strings"
 
-	"/home/vandna/Desktop/go-evm/accounts/abi"
 	fuzz "github.com/google/gofuzz"
+	"github.com/sachindigi195/go-evm/accounts/abi"
 )
 
 var (

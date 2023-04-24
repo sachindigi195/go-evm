@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"/home/vandna/Desktop/go-evm/rlp/internal/rlpstruct"
+	"github.com/sachindigi195/go-evm/rlp/internal/rlpstruct"
 )
 
 // typeinfo is an entry in the type cache.

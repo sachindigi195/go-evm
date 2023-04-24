@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"/home/vandna/Desktop/go-evm/console/prompt"
+	"github.com/sachindigi195/go-evm/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/metrics"
+	"github.com/sachindigi195/go-evm/metrics"
 	"github.com/stretchr/testify/require"
 )
 

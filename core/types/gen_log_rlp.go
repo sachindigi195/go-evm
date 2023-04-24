@@ -5,7 +5,7 @@
 
 package types
 
-import "/home/vandna/Desktop/go-evm/rlp"
+import "github.com/sachindigi195/go-evm/rlp"
 import "io"
 
 func (obj *rlpLog) EncodeRLP(_w io.Writer) error {

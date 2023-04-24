@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"/home/vandna/Desktop/go-evm/core/rawdb"
-	"/home/vandna/Desktop/go-evm/ethdb"
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 // transitionStatus describes the status of eth1/2 transition. This switch

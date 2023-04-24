@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"/home/vandna/Desktop/go-evm/core/asm"
+	"github.com/sachindigi195/go-evm/core/asm"
 	"gopkg.in/urfave/cli.v1"
 )
 

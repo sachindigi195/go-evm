@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"/home/vandna/Desktop/go-evm/cmd/evm/internal/compiler"
+	"github.com/sachindigi195/go-evm/cmd/evm/internal/compiler"
 
 	"gopkg.in/urfave/cli.v1"
 )

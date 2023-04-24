@@ -21,10 +21,10 @@ import (
 	"errors"
 	"os"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/rawdb"
-	"/home/vandna/Desktop/go-evm/log"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/log"
 )
 
 // stateBloomHasher is a wrapper around a byte blob to satisfy the interface API

@@ -21,13 +21,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/gopool"
-	"/home/vandna/Desktop/go-evm/common/prque"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/ethdb"
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/gopool"
+	"github.com/sachindigi195/go-evm/common/prque"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 // InitDatabaseFromFreezer reinitializes an empty database from a previous batch

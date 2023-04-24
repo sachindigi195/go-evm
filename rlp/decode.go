@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync"
 
-	"/home/vandna/Desktop/go-evm/rlp/internal/rlpstruct"
+	"github.com/sachindigi195/go-evm/rlp/internal/rlpstruct"
 )
 
 //lint:ignore ST1012 EOL is not an error.

@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"/home/vandna/Desktop/go-evm/crypto"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/crypto"
+	"github.com/sachindigi195/go-evm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -26,11 +26,11 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/ethdb"
-	"/home/vandna/Desktop/go-evm/ethdb/leveldb"
-	"/home/vandna/Desktop/go-evm/ethdb/memorydb"
-	"/home/vandna/Desktop/go-evm/log"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/ethdb/leveldb"
+	"github.com/sachindigi195/go-evm/ethdb/memorydb"
+	"github.com/sachindigi195/go-evm/log"
 )
 
 // freezerdb is a database wrapper that enabled freezer data retrievals.

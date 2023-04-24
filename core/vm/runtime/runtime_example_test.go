@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/vm/runtime"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/vm/runtime"
 )
 
 func ExampleExecute() {

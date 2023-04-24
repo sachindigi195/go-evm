@@ -22,14 +22,14 @@ import (
 	"math/big"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/consensus"
-	"/home/vandna/Desktop/go-evm/consensus/misc"
-	"/home/vandna/Desktop/go-evm/core/state"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/params"
-	"/home/vandna/Desktop/go-evm/rpc"
-	"/home/vandna/Desktop/go-evm/trie"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/consensus"
+	"github.com/sachindigi195/go-evm/consensus/misc"
+	"github.com/sachindigi195/go-evm/core/state"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/params"
+	"github.com/sachindigi195/go-evm/rpc"
+	"github.com/sachindigi195/go-evm/trie"
 )
 
 // Proof-of-stake protocol constants.
@@ -51,7 +51,7 @@ var (
 // Beacon is a consensus engine that combines the eth1 consensus and proof-of-stake
 // algorithm. There is a special flag inside to decide whether to use legacy consensus
 // rules or new rules. The transition rule is described in the eth1/2 merge spec.
-// https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3675.md
+// https:github.com/ethereum/EIPs/blob/master/EIPS/eip-3675.md
 //
 // The beacon here is a half-functional consensus engine with partial functions which
 // is only used for necessary consensus checks. The legacy consensus engine can be any

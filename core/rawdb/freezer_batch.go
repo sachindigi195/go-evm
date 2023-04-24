@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"/home/vandna/Desktop/go-evm/common/math"
-	"/home/vandna/Desktop/go-evm/rlp"
 	"github.com/golang/snappy"
+	"github.com/sachindigi195/go-evm/common/math"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 // This is the maximum amount of data that will be buffered in memory

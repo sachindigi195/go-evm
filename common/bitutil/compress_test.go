@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/common/hexutil"
+	"github.com/sachindigi195/go-evm/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

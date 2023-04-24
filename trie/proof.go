@@ -21,10 +21,10 @@ import (
 	"errors"
 	"fmt"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/ethdb"
-	"/home/vandna/Desktop/go-evm/ethdb/memorydb"
-	"/home/vandna/Desktop/go-evm/log"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/ethdb/memorydb"
+	"github.com/sachindigi195/go-evm/log"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

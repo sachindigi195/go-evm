@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"/home/vandna/Desktop/go-evm/accounts/keystore"
+	"github.com/sachindigi195/go-evm/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

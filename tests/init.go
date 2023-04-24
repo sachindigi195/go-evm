@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 // Forks table defines supported forks and their chain config.

@@ -19,7 +19,7 @@ package rlp
 import (
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/common/hexutil"
+	"github.com/sachindigi195/go-evm/common/hexutil"
 )
 
 // TestIterator tests some basic things about the ListIterator. A more

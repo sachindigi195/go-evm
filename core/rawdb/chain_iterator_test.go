@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

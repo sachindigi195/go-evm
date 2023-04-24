@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
+	"github.com/sachindigi195/go-evm/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

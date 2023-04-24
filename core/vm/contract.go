@@ -21,9 +21,9 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/metrics"
 	"github.com/holiman/uint256"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/metrics"
 )
 
 const codeBitmapCacheSize = 2000

@@ -21,8 +21,8 @@ import (
 	"container/heap"
 	"errors"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/ethdb"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

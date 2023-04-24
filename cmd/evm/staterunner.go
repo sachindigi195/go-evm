@@ -23,11 +23,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"/home/vandna/Desktop/go-evm/core/state"
-	"/home/vandna/Desktop/go-evm/core/vm"
-	"/home/vandna/Desktop/go-evm/eth/tracers/logger"
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/tests"
+	"github.com/sachindigi195/go-evm/core/state"
+	"github.com/sachindigi195/go-evm/core/vm"
+	"github.com/sachindigi195/go-evm/eth/tracers/logger"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

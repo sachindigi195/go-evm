@@ -1,6 +1,6 @@
 package types
 
-import "/home/vandna/Desktop/go-evm/common"
+import "github.com/sachindigi195/go-evm/common"
 
 // This is introduced because of the Tendermint IAVL Merkle Proof verification exploitation.
 var NanoBlackList = []common.Address{

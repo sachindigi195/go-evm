@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 var (

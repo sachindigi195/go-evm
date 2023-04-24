@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sync"
 
-	"/home/vandna/Desktop/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/core/types"
 )
 
 type ReceiptProcessor interface {

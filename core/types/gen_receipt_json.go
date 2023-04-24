@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/hexutil"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/hexutil"
 )
 
 var _ = (*receiptMarshaling)(nil)

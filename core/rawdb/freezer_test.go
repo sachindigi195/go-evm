@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/ethdb"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/rlp"
 	"github.com/stretchr/testify/require"
 )
 

@@ -26,7 +26,8 @@ import (
 	"path"
 	"strings"
 
-	"/home/vandna/Desktop/go-evm/common/math"
+	"github.com/sachindigi195/go-evm/common/math"
+
 	"gopkg.in/urfave/cli.v1"
 )
 

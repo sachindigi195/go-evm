@@ -19,10 +19,10 @@ package vm
 import (
 	"sync/atomic"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/params"
 	"github.com/holiman/uint256"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/params"
 	"golang.org/x/crypto/sha3"
 )
 

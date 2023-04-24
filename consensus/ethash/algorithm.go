@@ -27,11 +27,11 @@ import (
 	"time"
 	"unsafe"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/bitutil"
-	"/home/vandna/Desktop/go-evm/common/gopool"
-	"/home/vandna/Desktop/go-evm/crypto"
-	"/home/vandna/Desktop/go-evm/log"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/bitutil"
+	"github.com/sachindigi195/go-evm/common/gopool"
+	"github.com/sachindigi195/go-evm/crypto"
+	"github.com/sachindigi195/go-evm/log"
 	"golang.org/x/crypto/sha3"
 )
 

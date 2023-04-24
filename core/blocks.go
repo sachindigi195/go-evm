@@ -16,7 +16,7 @@
 
 package core
 
-import "/home/vandna/Desktop/go-evm/common"
+import "github.com/sachindigi195/go-evm/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

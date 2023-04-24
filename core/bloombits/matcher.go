@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common/bitutil"
-	"/home/vandna/Desktop/go-evm/common/gopool"
-	"/home/vandna/Desktop/go-evm/crypto"
+	"github.com/sachindigi195/go-evm/common/bitutil"
+	"github.com/sachindigi195/go-evm/common/gopool"
+	"github.com/sachindigi195/go-evm/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"/home/vandna/Desktop/go-evm/common/bitutil"
+	"github.com/sachindigi195/go-evm/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

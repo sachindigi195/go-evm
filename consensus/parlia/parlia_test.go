@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/common"
+	"github.com/sachindigi195/go-evm/common"
 )
 
 func TestImpactOfValidatorOutOfService(t *testing.T) {

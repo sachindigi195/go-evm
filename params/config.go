@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"/home/vandna/Desktop/go-evm/common"
+	"github.com/sachindigi195/go-evm/common"
 )
 
 // Genesis hashes to enforce below configs on.

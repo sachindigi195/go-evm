@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/tests/fuzzers/vflux"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/tests/fuzzers/vflux"
 )
 
 func main() {

@@ -16,7 +16,7 @@
 
 package beacon
 
-import "/home/vandna/Desktop/go-evm/rpc"
+import "github.com/sachindigi195/go-evm/rpc"
 
 var (
 	VALID              = GenericStringResponse{"VALID"}

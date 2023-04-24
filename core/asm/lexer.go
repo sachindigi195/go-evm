@@ -23,7 +23,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"/home/vandna/Desktop/go-evm/common/gopool"
+	"github.com/sachindigi195/go-evm/common/gopool"
 )
 
 // stateFn is used through the lifetime of the

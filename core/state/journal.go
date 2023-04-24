@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
+	"github.com/sachindigi195/go-evm/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

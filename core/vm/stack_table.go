@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 func minSwapStack(n int) int {

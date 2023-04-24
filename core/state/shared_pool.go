@@ -3,7 +3,7 @@ package state
 import (
 	"sync"
 
-	"/home/vandna/Desktop/go-evm/common"
+	"github.com/sachindigi195/go-evm/common"
 )
 
 // sharedPool is used to store maps of originStorage of stateObjects

@@ -27,10 +27,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/metrics"
 	"github.com/golang/snappy"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/metrics"
 )
 
 var (

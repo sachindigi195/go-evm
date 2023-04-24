@@ -24,9 +24,9 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/crypto"
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/crypto"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

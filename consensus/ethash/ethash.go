@@ -34,12 +34,12 @@ import (
 	"unsafe"
 
 	"github.com/edsrzf/mmap-go"
-	"/home/vandna/Desktop/go-evm/common/gopool"
-	"/home/vandna/Desktop/go-evm/consensus"
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/metrics"
-	"/home/vandna/Desktop/go-evm/rpc"
 	"github.com/hashicorp/golang-lru/simplelru"
+	"github.com/sachindigi195/go-evm/common/gopool"
+	"github.com/sachindigi195/go-evm/consensus"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/metrics"
+	"github.com/sachindigi195/go-evm/rpc"
 )
 
 var ErrInvalidDumpMagic = errors.New("invalid dump magic")

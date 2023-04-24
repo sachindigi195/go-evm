@@ -1,10 +1,10 @@
-module /home/vandna/Desktop/go-evm
+module github.com/sachindigi195/go-evm
 
 go 1.13
 
 require (
 	github.com/docker/docker v1.6.2
-	/home/vandna/Desktop/go-evm v1.11.6
+	github.com/sachindigi195/go-evm v1.11.6
 	github.com/fatih/structs v1.1.0
 	github.com/gballet/go-libpcsclite v0.0.0-20190607065134-2772fd86a8ff
 	github.com/shirou/gopsutil v3.21.4-0.20210419000835-c7a38de76ee5+incompatible

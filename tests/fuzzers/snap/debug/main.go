@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"/home/vandna/Desktop/go-evm/tests/fuzzers/snap"
+	"github.com/sachindigi195/go-evm/tests/fuzzers/snap"
 )
 
 func main() {

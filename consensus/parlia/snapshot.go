@@ -24,13 +24,13 @@ import (
 	"math/big"
 	"sort"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/consensus"
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/ethdb"
-	"/home/vandna/Desktop/go-evm/internal/ethapi"
-	"/home/vandna/Desktop/go-evm/params"
 	lru "github.com/hashicorp/golang-lru"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/consensus"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/internal/ethapi"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 // Snapshot is the state of the validatorSet at a given point.

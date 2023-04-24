@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sort"
 
-	"/home/vandna/Desktop/go-evm/params"
 	"github.com/holiman/uint256"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 var activators = map[int]func(*JumpTable){

@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"/home/vandna/Desktop/go-evm/core/vm/lightclient"
+	"github.com/sachindigi195/go-evm/core/vm/lightclient"
 )
 
 const (

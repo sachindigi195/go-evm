@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

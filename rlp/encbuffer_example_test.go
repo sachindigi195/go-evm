@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 func ExampleEncoderBuffer() {

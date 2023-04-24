@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"/home/vandna/Desktop/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

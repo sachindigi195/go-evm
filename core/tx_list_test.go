@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/crypto"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

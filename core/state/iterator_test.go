@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/ethdb"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

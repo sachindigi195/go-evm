@@ -35,8 +35,8 @@ import (
 	"sync"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/log"
 	"github.com/hashicorp/go-bexpr"
+	"github.com/sachindigi195/go-evm/log"
 )
 
 // Handler is the global debugging handler.

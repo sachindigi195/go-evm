@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"/home/vandna/Desktop/go-evm/common"
+	"github.com/sachindigi195/go-evm/common"
 )
 
 // LegacyTx is the transaction data of regular Ethereum transactions.

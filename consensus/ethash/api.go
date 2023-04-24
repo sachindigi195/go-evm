@@ -19,9 +19,9 @@ package ethash
 import (
 	"errors"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/hexutil"
-	"/home/vandna/Desktop/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/hexutil"
+	"github.com/sachindigi195/go-evm/core/types"
 )
 
 var errEthashStopped = errors.New("ethash stopped")

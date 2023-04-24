@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/common/math"
 	"github.com/holiman/uint256"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/common/math"
 )
 
 // calcMemSize64 calculates the required memory size, and returns

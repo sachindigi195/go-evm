@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 func nodeToBytes(n node) []byte {

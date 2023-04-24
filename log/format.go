@@ -27,7 +27,7 @@ const (
 
 // locationTrims are trimmed for display to avoid unwieldy log lines.
 var locationTrims = []string{
-	"/home/vandna/Desktop/go-evm/",
+	"github.com/sachindigi195/go-evm/",
 }
 
 // PrintOrigins sets or unsets log location (file:line) printing for terminal

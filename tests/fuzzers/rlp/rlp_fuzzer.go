@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"/home/vandna/Desktop/go-evm/core/types"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/core/types"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 func decodeEncode(input []byte, val interface{}, i int) {

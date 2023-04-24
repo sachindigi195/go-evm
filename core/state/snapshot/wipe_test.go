@@ -20,9 +20,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/common"
-	"/home/vandna/Desktop/go-evm/core/rawdb"
-	"/home/vandna/Desktop/go-evm/ethdb/memorydb"
+	"github.com/sachindigi195/go-evm/common"
+	"github.com/sachindigi195/go-evm/core/rawdb"
+	"github.com/sachindigi195/go-evm/ethdb/memorydb"
 )
 
 // Tests that given a database with random data content, all parts of a snapshot

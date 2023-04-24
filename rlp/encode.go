@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"/home/vandna/Desktop/go-evm/rlp/internal/rlpstruct"
+	"github.com/sachindigi195/go-evm/rlp/internal/rlpstruct"
 )
 
 var (

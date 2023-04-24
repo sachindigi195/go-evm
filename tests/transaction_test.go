@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/params"
 )
 
 func TestTransaction(t *testing.T) {

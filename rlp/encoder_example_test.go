@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 type MyCoolType struct {

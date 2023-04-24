@@ -19,7 +19,7 @@ package bloombits
 import (
 	"sync"
 
-	"/home/vandna/Desktop/go-evm/common/gopool"
+	"github.com/sachindigi195/go-evm/common/gopool"
 )
 
 // request represents a bloom retrieval task to prioritize and pull from the local

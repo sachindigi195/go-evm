@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"/home/vandna/Desktop/go-evm/core/vm"
+	"github.com/sachindigi195/go-evm/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

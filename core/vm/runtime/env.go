@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"/home/vandna/Desktop/go-evm/core"
-	"/home/vandna/Desktop/go-evm/core/vm"
+	"github.com/sachindigi195/go-evm/core"
+	"github.com/sachindigi195/go-evm/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

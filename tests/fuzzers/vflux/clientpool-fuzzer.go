@@ -24,14 +24,14 @@ import (
 	"math/big"
 	"time"
 
-	"/home/vandna/Desktop/go-evm/common/mclock"
-	"/home/vandna/Desktop/go-evm/ethdb/memorydb"
-	"/home/vandna/Desktop/go-evm/les/vflux"
-	vfs "/home/vandna/Desktop/go-evm/les/vflux/server"
-	"/home/vandna/Desktop/go-evm/log"
-	"/home/vandna/Desktop/go-evm/p2p/enode"
-	"/home/vandna/Desktop/go-evm/p2p/enr"
-	"/home/vandna/Desktop/go-evm/rlp"
+	"github.com/sachindigi195/go-evm/common/mclock"
+	"github.com/sachindigi195/go-evm/ethdb/memorydb"
+	"github.com/sachindigi195/go-evm/les/vflux"
+	vfs "github.com/sachindigi195/go-evm/les/vflux/server"
+	"github.com/sachindigi195/go-evm/log"
+	"github.com/sachindigi195/go-evm/p2p/enode"
+	"github.com/sachindigi195/go-evm/p2p/enr"
+	"github.com/sachindigi195/go-evm/rlp"
 )
 
 var (

@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"/home/vandna/Desktop/go-evm/params"
+	"github.com/sachindigi195/go-evm/params"
 	"gopkg.in/urfave/cli.v1"
 )
 
