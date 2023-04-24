@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/core/vm/lightclient"
+	"jumbochain/core/vm/lightclient"
 )
 
 const (

@@ -25,10 +25,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"jumbochain/common"
+	"jumbochain/common/math"
+	"jumbochain/core/types"
+	"jumbochain/params"
 )
 
 type diffTest struct {

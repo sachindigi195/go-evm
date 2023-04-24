@@ -30,7 +30,7 @@ import (
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fp"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
 
-	"github.com/ethereum/go-ethereum/crypto/bls12381"
+	"jumbochain/crypto/bls12381"
 )
 
 func FuzzCrossPairing(data []byte) int {

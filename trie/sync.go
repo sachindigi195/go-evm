@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"jumbochain/common"
+	"jumbochain/common/prque"
+	"jumbochain/core/rawdb"
+	"jumbochain/ethdb"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

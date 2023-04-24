@@ -24,12 +24,12 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"jumbochain/common"
+	"jumbochain/common/hexutil"
+	"jumbochain/core/types"
+	"jumbochain/crypto"
+	"jumbochain/rlp"
+	"jumbochain/trie"
 )
 
 func TestDeriveSha(t *testing.T) {

@@ -24,14 +24,14 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"jumbochain/common"
+	"jumbochain/core/rawdb"
+	"jumbochain/crypto"
+	"jumbochain/ethdb"
+	"jumbochain/log"
+	"jumbochain/metrics"
+	"jumbochain/rlp"
+	"jumbochain/trie"
 )
 
 var (

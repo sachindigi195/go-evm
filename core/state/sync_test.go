@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"jumbochain/common"
+	"jumbochain/core/rawdb"
+	"jumbochain/core/types"
+	"jumbochain/crypto"
+	"jumbochain/ethdb"
+	"jumbochain/rlp"
+	"jumbochain/trie"
 )
 
 // testAccount is the data associated with an account used by the state tests.

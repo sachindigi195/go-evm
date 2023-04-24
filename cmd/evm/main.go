@@ -18,11 +18,12 @@
 package main
 
 import (
+	"fmt"
+	"jumbochain/cmd/evm/internal/t8ntool"
+	"jumbochain/cmd/utils"
+	"jumbochain/internal/flags"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -233,4 +234,5 @@ func main() {
 	// 	fmt.Fprintln(os.Stderr, err)
 	// 	os.Exit(code)
 	// }
+	fmt.Println("welcome to evm compiler")
 }

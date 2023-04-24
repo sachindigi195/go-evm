@@ -24,9 +24,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"jumbochain/common"
+	"jumbochain/crypto"
+	"jumbochain/params"
 	"github.com/holiman/uint256"
 )
 

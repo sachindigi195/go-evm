@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/crypto"
+	"jumbochain/common/bitutil"
+	"jumbochain/common/gopool"
+	"jumbochain/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

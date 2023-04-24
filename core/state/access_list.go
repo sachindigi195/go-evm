@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"jumbochain/common"
 )
 
 type accessList struct {

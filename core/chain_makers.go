@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/systemcontracts"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"jumbochain/common"
+	"jumbochain/consensus"
+	"jumbochain/consensus/misc"
+	"jumbochain/core/state"
+	"jumbochain/core/systemcontracts"
+	"jumbochain/core/types"
+	"jumbochain/core/vm"
+	"jumbochain/ethdb"
+	"jumbochain/params"
 )
 
 // BlockGen creates blocks for testing.

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"jumbochain/common"
+	"jumbochain/core/state"
+	"jumbochain/log"
+	"jumbochain/params"
 )
 
 type UpgradeConfig struct {

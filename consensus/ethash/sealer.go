@@ -30,11 +30,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
+	"jumbochain/common"
+	"jumbochain/common/gopool"
+	"jumbochain/common/hexutil"
+	"jumbochain/consensus"
+	"jumbochain/core/types"
 )
 
 const (

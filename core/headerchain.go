@@ -28,14 +28,14 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"jumbochain/common"
+	"jumbochain/consensus"
+	"jumbochain/core/rawdb"
+	"jumbochain/core/types"
+	"jumbochain/ethdb"
+	"jumbochain/log"
+	"jumbochain/params"
+	"jumbochain/rlp"
 )
 
 const (

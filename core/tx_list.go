@@ -25,8 +25,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"jumbochain/common"
+	"jumbochain/core/types"
 )
 
 var txSortedMapPool = sync.Pool{

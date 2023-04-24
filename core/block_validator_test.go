@@ -23,16 +23,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"jumbochain/common"
+	"jumbochain/consensus"
+	"jumbochain/consensus/beacon"
+	"jumbochain/consensus/clique"
+	"jumbochain/consensus/ethash"
+	"jumbochain/core/rawdb"
+	"jumbochain/core/types"
+	"jumbochain/core/vm"
+	"jumbochain/crypto"
+	"jumbochain/params"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

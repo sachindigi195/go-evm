@@ -22,14 +22,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"jumbochain/common"
+	"jumbochain/consensus"
+	"jumbochain/consensus/misc"
+	"jumbochain/core/state"
+	"jumbochain/core/types"
+	"jumbochain/params"
+	"jumbochain/rpc"
+	"jumbochain/trie"
 )
 
 // Proof-of-stake protocol constants.

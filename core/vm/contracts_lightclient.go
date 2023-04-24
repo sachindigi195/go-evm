@@ -10,8 +10,8 @@ import (
 	"github.com/tendermint/tendermint/crypto/merkle"
 	cmn "github.com/tendermint/tendermint/libs/common"
 
-	"github.com/ethereum/go-ethereum/core/vm/lightclient"
-	"github.com/ethereum/go-ethereum/params"
+	"jumbochain/core/vm/lightclient"
+	"jumbochain/params"
 )
 
 const (

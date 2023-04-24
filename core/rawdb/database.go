@@ -26,11 +26,11 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"jumbochain/common"
+	"jumbochain/ethdb"
+	"jumbochain/ethdb/leveldb"
+	"jumbochain/ethdb/memorydb"
+	"jumbochain/log"
 )
 
 // freezerdb is a database wrapper that enabled freezer data retrievals.

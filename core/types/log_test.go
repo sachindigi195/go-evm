@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"jumbochain/common"
+	"jumbochain/common/hexutil"
 )
 
 var unmarshalLogTests = map[string]struct {

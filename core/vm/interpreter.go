@@ -20,9 +20,9 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/log"
+	"jumbochain/common"
+	"jumbochain/common/math"
+	"jumbochain/log"
 )
 
 var EVMInterpreterPool = sync.Pool{

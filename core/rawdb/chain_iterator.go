@@ -21,13 +21,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"jumbochain/common"
+	"jumbochain/common/gopool"
+	"jumbochain/common/prque"
+	"jumbochain/core/types"
+	"jumbochain/ethdb"
+	"jumbochain/log"
+	"jumbochain/rlp"
 )
 
 // InitDatabaseFromFreezer reinitializes an empty database from a previous batch
