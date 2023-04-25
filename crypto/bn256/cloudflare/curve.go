@@ -7,7 +7,7 @@ import (
 // curvePoint implements the elliptic curve y²=x³+3. Points are kept in Jacobian
 // form and t=z² when valid. G₁ is the set of points of this curve on GF(p).
 type curvePoint struct {
-	x, y, z, t gfP
+	x, y, z, t, gfP
 }
 
 var curveB = newGFp(3)

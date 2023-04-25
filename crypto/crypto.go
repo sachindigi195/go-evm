@@ -31,12 +31,13 @@ import (
 	"os"
 	"sync"
 
-	"github.com/VictoriaMetrics/fastcache"
+	// "github.com/VictoriaMetrics/fastcache"
 
 	"github.com/sachindigi195/go-evm/common"
 	"github.com/sachindigi195/go-evm/common/math"
 	"github.com/sachindigi195/go-evm/rlp"
 	"golang.org/x/crypto/sha3"
+	// "golang.org/x/crypto/sha3"
 )
 
 // SignatureLength indicates the byte length required to carry a signature with recovery id.

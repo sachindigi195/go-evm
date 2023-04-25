@@ -19,7 +19,7 @@ package utils
 import (
 	"fmt"
 
-	"/github.com/sachindigi195/go-evm/eth/ethconfig"
+	"github.com/sachindigi195/go-evm/eth/ethconfig"
 	"gopkg.in/urfave/cli.v1"
 )
 

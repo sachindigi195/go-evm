@@ -36,7 +36,8 @@ import (
 	"github.com/sachindigi195/go-evm/core/state"
 	"github.com/sachindigi195/go-evm/core/vm"
 	"github.com/sachindigi195/go-evm/core/vm/runtime"
-	"github.com/sachindigi195/go-evm/eth/tracers/logger"
+
+	// "github.com/sachindigi195/go-evm/eth/tracers/logger"
 	"github.com/sachindigi195/go-evm/log"
 	"github.com/sachindigi195/go-evm/params"
 	"gopkg.in/urfave/cli.v1"

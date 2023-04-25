@@ -37,7 +37,8 @@ import (
 	"github.com/sachindigi195/go-evm/core/types"
 	"github.com/sachindigi195/go-evm/core/vm"
 	"github.com/sachindigi195/go-evm/crypto"
-	"github.com/sachindigi195/go-evm/eth/tracers/logger"
+
+	// "github.com/sachindigi195/go-evm/eth/tracers/logger"
 	"github.com/sachindigi195/go-evm/ethdb"
 	"github.com/sachindigi195/go-evm/params"
 	"github.com/sachindigi195/go-evm/trie"

@@ -19,12 +19,14 @@ package main
 
 import (
 	"fmt"
+	"math/big"
+	"os"
+
 	"github.com/sachindigi195/go-evm/cmd/evm/internal/t8ntool"
 	"github.com/sachindigi195/go-evm/cmd/utils"
 	"github.com/sachindigi195/go-evm/internal/flags"
-	"math/big"
 
-	"gopkg.in/urfave/cli.v1"
+	cli "gopkg.in/urfave/cli.v1"
 )
 
 var gitCommit = "" // Git SHA1 commit hash of the release (set via linker flags)
@@ -226,13 +228,12 @@ func init() {
 }
 
 func main() {
-	// if err := app.Run(os.Args); err != nil {
-	// 	code := 1
-	// 	if ec, ok := err.(*t8ntool.NumberedError); ok {
-	// 		code = ec.ExitCode()
-	// 	}
-	// 	fmt.Fprintln(os.Stderr, err)
-	// 	os.Exit(code)
-	// }
-	fmt.Println("welcome to evm compiler")
+	if err := app.Run(os.Args); err != nil {
+		code := 1
+		if ec, ok := err.(*t8ntool.NumberedError); ok {
+			code = ec.ExitCode()
+		}
+		fmt.Fprintln(os.Stderr, err)
+		os.Exit(code)
+	}
 }
